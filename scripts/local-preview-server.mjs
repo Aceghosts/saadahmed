@@ -24,20 +24,21 @@ function baseStyles() {
     @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap');
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-    body { margin: 0; background: linear-gradient(180deg,#080706 0%,#120b09 34%,#160c0b 62%,#090706 100%); color: white; font-family: "Inter Tight", ui-sans-serif, system-ui, sans-serif; }
+    body { margin: 0; background: #080706; color: white; font-family: "Inter Tight", ui-sans-serif, system-ui, sans-serif; }
     a { color: inherit; text-decoration: none; }
+    @keyframes ambientGradient { 0%,100% { background-position: 50% 0%, 20% 20%, 80% 8%; } 50% { background-position: 50% 0%, 24% 18%, 76% 12%; } }
     @keyframes chroma { 0%,100% { color: #fff7ed; } 33% { color: #fdba74; } 66% { color: #c4b5fd; } }
-    @keyframes floatPortrait { 0%,100% { transform: translateY(0) rotate(-1deg); } 50% { transform: translateY(-16px) rotate(1deg); } }
     @keyframes glowShift { 0%,100% { opacity: .85; transform: scale(1); } 50% { opacity: 1; transform: scale(1.08); } }
     @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
     .animated-word { animation: chroma 7s ease-in-out infinite; }
-    .portrait-float { animation: floatPortrait 7s ease-in-out infinite; }
+    .site-atmosphere { position: fixed; inset: 0; z-index: 0; pointer-events: none; background: linear-gradient(180deg,#080706 0%,#120b09 36%,#160c0b 64%,#090706 100%), radial-gradient(circle at 22% 18%, rgba(255,86,38,.32), transparent 32%), radial-gradient(circle at 78% 12%, rgba(139,92,246,.18), transparent 34%); background-size: 100% 100%, 120% 120%, 120% 120%; animation: ambientGradient 18s ease-in-out infinite; }
+    .site-grid { position: fixed; inset: 0; z-index: 0; pointer-events: none; background-image: linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px), linear-gradient(180deg, rgba(255,255,255,.025) 1px, transparent 1px); background-size: 64px 64px; opacity: .2; }
     .brand-track { animation: marquee 26s linear infinite; }
     .brand-strip:hover .brand-track { animation-play-state: paused; }
     .reveal { opacity: 0; transform: translateY(34px); transition: opacity .75s ease, transform .75s ease; }
     .reveal.visible { opacity: 1; transform: translateY(0); }
-    .hero { min-height: 100vh; position: relative; overflow: hidden; border-bottom: 1px solid rgba(255,255,255,.1); }
-    .hero:before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 70% 14%, rgba(255,86,38,.56), transparent 34%), linear-gradient(135deg, #ff4f1f 0%, #a92516 33%, #160b18 70%, #050505 100%); }
+    .hero { min-height: 100vh; position: relative; z-index: 1; overflow: hidden; border-bottom: 1px solid rgba(255,255,255,.1); }
+    .hero:before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 70% 14%, rgba(255,86,38,.30), transparent 34%), linear-gradient(135deg, rgba(255,79,31,.52) 0%, rgba(169,37,22,.42) 33%, rgba(22,11,24,.18) 70%, rgba(5,5,5,.08) 100%); }
     .hero:after { content: ""; position: absolute; inset-inline: 0; bottom: 0; height: 240px; background: linear-gradient(to top, #080706, transparent); }
     .wrap { width: min(1180px, calc(100% - 40px)); margin: 0 auto; position: relative; z-index: 1; }
     .topbar { height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
@@ -177,6 +178,8 @@ function renderProfile(profile, isPreview = false) {
       <style>${baseStyles()}</style>
     </head>
     <body>
+      <div class="site-atmosphere"></div>
+      <div class="site-grid"></div>
       <main>
         <section class="hero">
           <div class="wrap">
@@ -196,7 +199,7 @@ function renderProfile(profile, isPreview = false) {
                   ${profile.socialLinks?.linkedin ? `<a class="button secondary" href="${escapeHtml(profile.socialLinks.linkedin)}">LinkedIn -></a>` : ""}
                 </div>
               </div>
-              <div class="portrait-shell portrait-float reveal visible">
+              <div class="portrait-shell reveal visible">
                 <div class="portrait-card"><img class="portrait" src="${escapeHtml(profile.profileImage)}" alt="${escapeHtml(profile.name)} portrait" /></div>
               </div>
             </div>

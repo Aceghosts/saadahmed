@@ -52,10 +52,26 @@ export function ProfileSite({ profile, isPreview = false }: ProfileSiteProps) {
     : undefined;
 
   return (
-    <main className="min-h-screen overflow-hidden bg-[linear-gradient(180deg,#080706_0%,#120b09_34%,#160c0b_62%,#090706_100%)] text-white">
+    <main className="relative min-h-screen overflow-hidden bg-[#080706] text-white">
       <style jsx global>{`
         html {
           scroll-behavior: smooth;
+        }
+
+        @keyframes ambientGradient {
+          0%,
+          100% {
+            background-position:
+              50% 0%,
+              20% 20%,
+              80% 8%;
+          }
+          50% {
+            background-position:
+              50% 0%,
+              24% 18%,
+              76% 12%;
+          }
         }
 
         @keyframes chroma {
@@ -68,16 +84,6 @@ export function ProfileSite({ profile, isPreview = false }: ProfileSiteProps) {
           }
           66% {
             color: #c4b5fd;
-          }
-        }
-
-        @keyframes floatPortrait {
-          0%,
-          100% {
-            transform: translateY(0) rotate(-1deg);
-          }
-          50% {
-            transform: translateY(-16px) rotate(1deg);
           }
         }
 
@@ -94,8 +100,12 @@ export function ProfileSite({ profile, isPreview = false }: ProfileSiteProps) {
           animation: chroma 7s ease-in-out infinite;
         }
 
-        .portrait-float {
-          animation: floatPortrait 7s ease-in-out infinite;
+        .site-atmosphere {
+          animation: ambientGradient 18s ease-in-out infinite;
+          background-size:
+            100% 100%,
+            120% 120%,
+            120% 120%;
         }
 
         .brand-track {
@@ -107,8 +117,11 @@ export function ProfileSite({ profile, isPreview = false }: ProfileSiteProps) {
         }
       `}</style>
 
-      <section className="relative min-h-screen overflow-hidden border-b border-white/10">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_14%,rgba(255,86,38,0.56),transparent_34%),linear-gradient(135deg,#ff4f1f_0%,#a92516_33%,#160b18_70%,#050505_100%)]" />
+      <div className="site-atmosphere pointer-events-none fixed inset-0 z-0 bg-[linear-gradient(180deg,#080706_0%,#120b09_36%,#160c0b_64%,#090706_100%),radial-gradient(circle_at_22%_18%,rgba(255,86,38,0.32),transparent_32%),radial-gradient(circle_at_78%_12%,rgba(139,92,246,0.18),transparent_34%)]" />
+      <div className="pointer-events-none fixed inset-0 z-0 bg-[linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(180deg,rgba(255,255,255,0.025)_1px,transparent_1px)] bg-[size:64px_64px] opacity-20" />
+
+      <section className="relative z-10 min-h-screen overflow-hidden border-b border-white/10">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_14%,rgba(255,86,38,0.30),transparent_34%),linear-gradient(135deg,rgba(255,79,31,0.52)_0%,rgba(169,37,22,0.42)_33%,rgba(22,11,24,0.18)_70%,rgba(5,5,5,0.08)_100%)]" />
         <div className="absolute inset-x-0 bottom-0 h-56 bg-gradient-to-t from-[#080706] to-transparent" />
 
         <div className="relative mx-auto flex min-h-screen max-w-7xl flex-col px-5 py-5 sm:px-8 lg:px-10">
@@ -181,7 +194,8 @@ export function ProfileSite({ profile, isPreview = false }: ProfileSiteProps) {
               initial={{ opacity: 0, x: 36, scale: 0.96 }}
               animate={{ opacity: 1, x: 0, scale: 1 }}
               transition={{ duration: 0.9, ease: "easeOut", delay: 0.14 }}
-              className="portrait-float relative order-1 mx-auto w-full max-w-[330px] sm:max-w-[420px] lg:order-2 lg:max-w-[540px]"
+              whileHover={{ y: -8, scale: 1.015 }}
+              className="relative order-1 mx-auto w-full max-w-[330px] sm:max-w-[420px] lg:order-2 lg:max-w-[540px]"
             >
               <div className="absolute -inset-5 rounded-[2rem] bg-white/10 blur-3xl" />
               <div className="relative overflow-hidden rounded-[2rem] border border-white/20 bg-white/10 p-3 shadow-2xl shadow-black/40 backdrop-blur-2xl">
