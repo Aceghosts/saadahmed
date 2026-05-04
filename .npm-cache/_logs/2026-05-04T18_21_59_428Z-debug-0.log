@@ -1,0 +1,1169 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Dell\Documents\Codex\2026-05-04\build-a-next-js-14-project\presona\.npmrc
+5 silly config load:file:C:\Users\Dell\.npmrc
+6 silly config load:file:C:\Users\Dell\Documents\Codex\2026-05-04\build-a-next-js-14-project\.appdata\npm\etc\npmrc
+7 verbose title npm install @anthropic-ai/sdk pdf-parse framer-motion next-themes lucide-react @radix-ui/react-dialog clsx tailwind-merge sharp
+8 verbose argv "install" "@anthropic-ai/sdk" "pdf-parse" "framer-motion" "next-themes" "lucide-react" "@radix-ui/react-dialog" "clsx" "tailwind-merge" "sharp" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\Dell\Documents\Codex\2026-05-04\build-a-next-js-14-project\presona\.npm-cache\_logs\2026-05-04T18_21_59_428Z-
+10 verbose logfile C:\Users\Dell\Documents\Codex\2026-05-04\build-a-next-js-14-project\presona\.npm-cache\_logs\2026-05-04T18_21_59_428Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 http fetch GET 200 https://registry.npmjs.org/npm 1393ms
+14 silly idealTree buildDeps
+15 silly fetch manifest @anthropic-ai/sdk@*
+16 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fsdk cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@anthropic-ai%2fsdk 221ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fsdk set size:undefined disposed:false
+19 silly fetch manifest zod@^3.25.0 || ^4.0.0
+20 silly packumentCache full:https://registry.npmjs.org/zod cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/zod 357ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/zod set size:undefined disposed:false
+23 silly fetch manifest pdf-parse@*
+24 silly packumentCache full:https://registry.npmjs.org/pdf-parse cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/pdf-parse 161ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/pdf-parse set size:undefined disposed:false
+27 silly fetch manifest framer-motion@*
+28 silly packumentCache full:https://registry.npmjs.org/framer-motion cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/framer-motion 420ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/framer-motion set size:undefined disposed:false
+31 silly fetch manifest @emotion/is-prop-valid@*
+32 silly packumentCache full:https://registry.npmjs.org/@emotion%2fis-prop-valid cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/@emotion%2fis-prop-valid 175ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/@emotion%2fis-prop-valid set size:undefined disposed:false
+35 silly fetch manifest react@^18
+36 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/react 584ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+39 silly fetch manifest react-dom@^18
+40 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/react-dom 766ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+43 silly fetch manifest next-themes@*
+44 silly packumentCache full:https://registry.npmjs.org/next-themes cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/next-themes 175ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/next-themes set size:undefined disposed:false
+47 silly fetch manifest lucide-react@*
+48 silly packumentCache full:https://registry.npmjs.org/lucide-react cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/lucide-react 245ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/lucide-react set size:undefined disposed:false
+51 silly fetch manifest @radix-ui/react-dialog@*
+52 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-dialog cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-dialog 203ms (cache miss)
+54 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-dialog set size:undefined disposed:false
+55 silly fetch manifest @types/react@^18
+56 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/@types%2freact 233ms (cache miss)
+58 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+59 silly fetch manifest @types/react-dom@^18
+60 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 179ms (cache miss)
+62 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom set size:undefined disposed:false
+63 silly fetch manifest clsx@*
+64 silly packumentCache full:https://registry.npmjs.org/clsx cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/clsx 147ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/clsx set size:undefined disposed:false
+67 silly fetch manifest tailwind-merge@*
+68 silly packumentCache full:https://registry.npmjs.org/tailwind-merge cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/tailwind-merge 210ms (cache miss)
+70 silly packumentCache full:https://registry.npmjs.org/tailwind-merge set size:undefined disposed:false
+71 silly fetch manifest sharp@*
+72 silly packumentCache full:https://registry.npmjs.org/sharp cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/sharp 187ms (cache miss)
+74 silly packumentCache full:https://registry.npmjs.org/sharp set size:undefined disposed:false
+75 silly placeDep ROOT @anthropic-ai/sdk@0.93.0 OK for: presona@0.1.0 want: *
+76 silly placeDep ROOT @radix-ui/react-dialog@1.1.15 OK for: presona@0.1.0 want: *
+77 silly placeDep ROOT clsx@2.1.1 OK for: presona@0.1.0 want: *
+78 silly placeDep ROOT framer-motion@12.38.0 OK for: presona@0.1.0 want: *
+79 silly placeDep ROOT lucide-react@1.14.0 OK for: presona@0.1.0 want: *
+80 silly placeDep ROOT next-themes@0.4.6 OK for: presona@0.1.0 want: *
+81 silly placeDep ROOT pdf-parse@2.4.5 OK for: presona@0.1.0 want: *
+82 silly placeDep ROOT sharp@0.34.5 OK for: presona@0.1.0 want: *
+83 silly placeDep ROOT tailwind-merge@3.5.0 OK for: presona@0.1.0 want: *
+84 silly fetch manifest json-schema-to-ts@^3.1.1
+85 silly packumentCache full:https://registry.npmjs.org/json-schema-to-ts cache-miss
+86 silly fetch manifest aria-hidden@^1.2.4
+87 silly packumentCache full:https://registry.npmjs.org/aria-hidden cache-miss
+88 silly fetch manifest @radix-ui/react-id@1.1.1
+89 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-id cache-miss
+90 silly fetch manifest @radix-ui/primitive@1.1.3
+91 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2fprimitive cache-miss
+92 silly fetch manifest react-remove-scroll@^2.6.3
+93 silly packumentCache full:https://registry.npmjs.org/react-remove-scroll cache-miss
+94 silly fetch manifest @radix-ui/react-slot@1.2.3
+95 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-slot cache-miss
+96 silly fetch manifest @radix-ui/react-portal@1.1.9
+97 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-portal cache-miss
+98 silly fetch manifest @radix-ui/react-context@1.1.2
+99 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-context cache-miss
+100 silly fetch manifest @radix-ui/react-presence@1.1.5
+101 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-presence cache-miss
+102 silly fetch manifest @radix-ui/react-primitive@2.1.3
+103 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-primitive cache-miss
+104 silly fetch manifest @radix-ui/react-focus-scope@1.1.7
+105 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-focus-scope cache-miss
+106 http fetch GET 200 https://registry.npmjs.org/json-schema-to-ts 195ms (cache miss)
+107 silly packumentCache full:https://registry.npmjs.org/json-schema-to-ts set size:undefined disposed:false
+108 silly fetch manifest @radix-ui/react-compose-refs@1.1.2
+109 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-compose-refs cache-miss
+110 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-compose-refs 496ms (cache miss)
+111 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-compose-refs set size:undefined disposed:false
+112 silly fetch manifest @radix-ui/react-focus-guards@1.1.3
+113 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-focus-guards cache-miss
+114 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2fprimitive 763ms (cache miss)
+115 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2fprimitive set size:undefined disposed:false
+116 silly fetch manifest @radix-ui/react-dismissable-layer@1.1.11
+117 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-dismissable-layer cache-miss
+118 http fetch GET 200 https://registry.npmjs.org/react-remove-scroll 773ms (cache miss)
+119 silly packumentCache full:https://registry.npmjs.org/react-remove-scroll set size:undefined disposed:false
+120 silly fetch manifest @radix-ui/react-use-controllable-state@1.2.2
+121 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-controllable-state cache-miss
+122 http fetch GET 200 https://registry.npmjs.org/aria-hidden 822ms (cache miss)
+123 silly packumentCache full:https://registry.npmjs.org/aria-hidden set size:undefined disposed:false
+124 silly fetch manifest motion-dom@^12.38.0
+125 silly packumentCache full:https://registry.npmjs.org/motion-dom cache-miss
+126 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-id 850ms (cache miss)
+127 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-id set size:undefined disposed:false
+128 silly fetch manifest motion-utils@^12.36.0
+129 silly packumentCache full:https://registry.npmjs.org/motion-utils cache-miss
+130 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-context 868ms (cache miss)
+131 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-context set size:undefined disposed:false
+132 silly fetch manifest pdfjs-dist@5.4.296
+133 silly packumentCache full:https://registry.npmjs.org/pdfjs-dist cache-miss
+134 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-focus-guards 319ms (cache miss)
+135 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-focus-guards set size:undefined disposed:false
+136 silly fetch manifest @napi-rs/canvas@0.1.80
+137 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas cache-miss
+138 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-portal 1055ms (cache miss)
+139 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-portal set size:undefined disposed:false
+140 silly fetch manifest @img/colour@^1.0.0
+141 silly packumentCache full:https://registry.npmjs.org/@img%2fcolour cache-miss
+142 http fetch GET 200 https://registry.npmjs.org/motion-utils 273ms (cache miss)
+143 silly packumentCache full:https://registry.npmjs.org/motion-utils set size:undefined disposed:false
+144 silly fetch manifest detect-libc@^2.1.2
+145 silly packumentCache full:https://registry.npmjs.org/detect-libc cache-miss
+146 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-controllable-state 393ms (cache miss)
+147 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-controllable-state set size:undefined disposed:false
+148 silly fetch manifest @img/sharp-wasm32@0.34.5
+149 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-wasm32 cache-miss
+150 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-focus-scope 1205ms (cache miss)
+151 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-focus-scope set size:undefined disposed:false
+152 silly fetch manifest @img/sharp-linux-arm@0.34.5
+153 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm cache-miss
+154 http fetch GET 200 https://registry.npmjs.org/motion-dom 518ms (cache miss)
+155 silly packumentCache full:https://registry.npmjs.org/motion-dom set size:undefined disposed:false
+156 silly fetch manifest @img/sharp-linux-x64@0.34.5
+157 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-x64 cache-miss
+158 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas 383ms (cache miss)
+159 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas set size:undefined disposed:false
+160 silly fetch manifest @img/sharp-win32-x64@0.34.5
+161 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-x64 cache-miss
+162 http fetch GET 200 https://registry.npmjs.org/@img%2fcolour 390ms (cache miss)
+163 silly packumentCache full:https://registry.npmjs.org/@img%2fcolour set size:undefined disposed:false
+164 silly fetch manifest @img/sharp-darwin-x64@0.34.5
+165 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-x64 cache-miss
+166 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-primitive 1465ms (cache miss)
+167 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-primitive set size:undefined disposed:false
+168 silly fetch manifest @img/sharp-win32-ia32@0.34.5
+169 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-ia32 cache-miss
+170 http fetch GET 200 https://registry.npmjs.org/detect-libc 369ms (cache miss)
+171 silly packumentCache full:https://registry.npmjs.org/detect-libc set size:undefined disposed:false
+172 silly fetch manifest @img/sharp-linux-arm64@0.34.5
+173 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm64 cache-miss
+174 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-arm 310ms (cache miss)
+175 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm set size:undefined disposed:false
+176 silly fetch manifest @img/sharp-linux-ppc64@0.34.5
+177 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-ppc64 cache-miss
+178 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-x64 251ms (cache miss)
+179 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-x64 set size:undefined disposed:false
+180 silly fetch manifest @img/sharp-linux-s390x@0.34.5
+181 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-s390x cache-miss
+182 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-dismissable-layer 852ms (cache miss)
+183 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-dismissable-layer set size:undefined disposed:false
+184 silly fetch manifest @img/sharp-win32-arm64@0.34.5
+185 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-arm64 cache-miss
+186 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-slot 1648ms (cache miss)
+187 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-slot set size:undefined disposed:false
+188 silly fetch manifest @img/sharp-darwin-arm64@0.34.5
+189 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-arm64 cache-miss
+190 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-win32-x64 256ms (cache miss)
+191 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-x64 set size:undefined disposed:false
+192 silly fetch manifest @img/sharp-linux-riscv64@0.34.5
+193 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-riscv64 cache-miss
+194 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-wasm32 529ms (cache miss)
+195 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-wasm32 set size:undefined disposed:false
+196 silly fetch manifest @img/sharp-linuxmusl-x64@0.34.5
+197 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 cache-miss
+198 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-presence 1721ms (cache miss)
+199 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-presence set size:undefined disposed:false
+200 silly fetch manifest @img/sharp-linuxmusl-arm64@0.34.5
+201 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 cache-miss
+202 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-arm64 265ms (cache miss)
+203 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm64 set size:undefined disposed:false
+204 silly fetch manifest @img/sharp-libvips-linux-arm@1.2.4
+205 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm cache-miss
+206 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-ppc64 240ms (cache miss)
+207 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-ppc64 set size:undefined disposed:false
+208 silly fetch manifest @img/sharp-libvips-linux-x64@1.2.4
+209 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-x64 cache-miss
+210 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-win32-arm64 241ms (cache miss)
+211 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-arm64 set size:undefined disposed:false
+212 silly fetch manifest @img/sharp-libvips-darwin-x64@1.2.4
+213 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 cache-miss
+214 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-s390x 281ms (cache miss)
+215 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-s390x set size:undefined disposed:false
+216 silly fetch manifest @img/sharp-libvips-linux-arm64@1.2.4
+217 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 cache-miss
+218 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-darwin-arm64 246ms (cache miss)
+219 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-arm64 set size:undefined disposed:false
+220 silly fetch manifest @img/sharp-libvips-linux-ppc64@1.2.4
+221 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 cache-miss
+222 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-x64 165ms (cache miss)
+223 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-x64 set size:undefined disposed:false
+224 silly fetch manifest @img/sharp-libvips-linux-s390x@1.2.4
+225 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x cache-miss
+226 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm 190ms (cache miss)
+227 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm set size:undefined disposed:false
+228 silly fetch manifest @img/sharp-libvips-darwin-arm64@1.2.4
+229 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 cache-miss
+230 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 233ms (cache miss)
+231 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 set size:undefined disposed:false
+232 silly fetch manifest @img/sharp-libvips-linux-riscv64@1.2.4
+233 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-riscv64 cache-miss
+234 http fetch GET 200 https://registry.npmjs.org/pdfjs-dist 1135ms (cache miss)
+235 silly packumentCache full:https://registry.npmjs.org/pdfjs-dist set size:undefined disposed:false
+236 silly fetch manifest @img/sharp-libvips-linuxmusl-x64@1.2.4
+237 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 cache-miss
+238 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-riscv64 440ms (cache miss)
+239 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-riscv64 set size:undefined disposed:false
+240 silly fetch manifest @img/sharp-libvips-linuxmusl-arm64@1.2.4
+241 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 cache-miss
+242 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 268ms (cache miss)
+243 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 set size:undefined disposed:false
+244 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x 193ms (cache miss)
+245 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x set size:undefined disposed:false
+246 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 448ms (cache miss)
+247 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 set size:undefined disposed:false
+248 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 250ms (cache miss)
+249 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 set size:undefined disposed:false
+250 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 269ms (cache miss)
+251 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 set size:undefined disposed:false
+252 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 212ms (cache miss)
+253 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 set size:undefined disposed:false
+254 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-riscv64 205ms (cache miss)
+255 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-riscv64 set size:undefined disposed:false
+256 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 208ms (cache miss)
+257 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 set size:undefined disposed:false
+258 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-darwin-x64 837ms (cache miss)
+259 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-x64 set size:undefined disposed:false
+260 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 176ms (cache miss)
+261 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 set size:undefined disposed:false
+262 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-win32-ia32 864ms (cache miss)
+263 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-ia32 set size:undefined disposed:false
+264 silly placeDep ROOT json-schema-to-ts@3.1.1 OK for: @anthropic-ai/sdk@0.93.0 want: ^3.1.1
+265 silly fetch manifest @babel/runtime@^7.18.3
+266 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime cache-miss
+267 silly fetch manifest ts-algebra@^2.0.0
+268 silly packumentCache full:https://registry.npmjs.org/ts-algebra cache-miss
+269 http fetch GET 200 https://registry.npmjs.org/ts-algebra 175ms (cache miss)
+270 silly packumentCache full:https://registry.npmjs.org/ts-algebra set size:undefined disposed:false
+271 http fetch GET 200 https://registry.npmjs.org/@babel%2fruntime 510ms (cache miss)
+272 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime set size:undefined disposed:false
+273 silly fetch manifest @types/react@*
+274 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+275 http cache https://registry.npmjs.org/@types%2freact 49ms (cache hit)
+276 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2588964 disposed:false
+277 silly fetch manifest react@^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+278 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+279 http cache https://registry.npmjs.org/react 55ms (cache hit)
+280 silly packumentCache full:https://registry.npmjs.org/react set size:6637568 disposed:false
+281 silly fetch manifest @types/react-dom@*
+282 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+283 http cache https://registry.npmjs.org/@types%2freact-dom 18ms (cache hit)
+284 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom set size:429026 disposed:false
+285 silly fetch manifest react-dom@^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+286 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+287 http cache https://registry.npmjs.org/react-dom 85ms (cache hit)
+288 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8846320 disposed:false
+289 silly placeDep ROOT @radix-ui/primitive@1.1.3 OK for: @radix-ui/react-dialog@1.1.15 want: 1.1.3
+290 silly placeDep ROOT @radix-ui/react-compose-refs@1.1.2 OK for: @radix-ui/react-dialog@1.1.15 want: 1.1.2
+291 silly placeDep ROOT @radix-ui/react-context@1.1.2 OK for: @radix-ui/react-dialog@1.1.15 want: 1.1.2
+292 silly placeDep ROOT @radix-ui/react-dismissable-layer@1.1.11 OK for: @radix-ui/react-dialog@1.1.15 want: 1.1.11
+293 silly placeDep ROOT @radix-ui/react-focus-guards@1.1.3 OK for: @radix-ui/react-dialog@1.1.15 want: 1.1.3
+294 silly placeDep ROOT @radix-ui/react-focus-scope@1.1.7 OK for: @radix-ui/react-dialog@1.1.15 want: 1.1.7
+295 silly placeDep ROOT @radix-ui/react-id@1.1.1 OK for: @radix-ui/react-dialog@1.1.15 want: 1.1.1
+296 silly placeDep ROOT @radix-ui/react-portal@1.1.9 OK for: @radix-ui/react-dialog@1.1.15 want: 1.1.9
+297 silly placeDep ROOT @radix-ui/react-presence@1.1.5 OK for: @radix-ui/react-dialog@1.1.15 want: 1.1.5
+298 silly placeDep ROOT @radix-ui/react-primitive@2.1.3 OK for: @radix-ui/react-dialog@1.1.15 want: 2.1.3
+299 silly placeDep ROOT @radix-ui/react-slot@1.2.3 OK for: @radix-ui/react-dialog@1.1.15 want: 1.2.3
+300 silly placeDep ROOT @radix-ui/react-use-controllable-state@1.2.2 OK for: @radix-ui/react-dialog@1.1.15 want: 1.2.2
+301 silly placeDep ROOT aria-hidden@1.2.6 OK for: @radix-ui/react-dialog@1.1.15 want: ^1.2.4
+302 silly placeDep ROOT react-remove-scroll@2.7.2 OK for: @radix-ui/react-dialog@1.1.15 want: ^2.6.3
+303 silly fetch manifest @radix-ui/react-use-callback-ref@1.1.1
+304 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-callback-ref cache-miss
+305 silly fetch manifest @radix-ui/react-use-escape-keydown@1.1.1
+306 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-escape-keydown cache-miss
+307 silly fetch manifest @radix-ui/react-use-callback-ref@1.1.1
+308 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-callback-ref cache-miss
+309 silly fetch manifest @radix-ui/react-use-layout-effect@1.1.1
+310 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-layout-effect cache-miss
+311 silly fetch manifest @radix-ui/react-use-layout-effect@1.1.1
+312 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-layout-effect cache-miss
+313 silly fetch manifest @radix-ui/react-use-layout-effect@1.1.1
+314 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-layout-effect cache-miss
+315 silly fetch manifest @radix-ui/react-use-effect-event@0.0.2
+316 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-effect-event cache-miss
+317 silly fetch manifest @radix-ui/react-use-layout-effect@1.1.1
+318 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-layout-effect cache-miss
+319 silly fetch manifest react-remove-scroll-bar@^2.3.7
+320 silly packumentCache full:https://registry.npmjs.org/react-remove-scroll-bar cache-miss
+321 silly fetch manifest react-style-singleton@^2.2.3
+322 silly packumentCache full:https://registry.npmjs.org/react-style-singleton cache-miss
+323 silly fetch manifest use-callback-ref@^1.3.3
+324 silly packumentCache full:https://registry.npmjs.org/use-callback-ref cache-miss
+325 http fetch GET 200 https://registry.npmjs.org/react-style-singleton 193ms (cache miss)
+326 silly packumentCache full:https://registry.npmjs.org/react-style-singleton set size:undefined disposed:false
+327 silly fetch manifest use-sidecar@^1.1.3
+328 silly packumentCache full:https://registry.npmjs.org/use-sidecar cache-miss
+329 http fetch GET 200 https://registry.npmjs.org/use-callback-ref 206ms (cache miss)
+330 silly packumentCache full:https://registry.npmjs.org/use-callback-ref set size:undefined disposed:false
+331 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-effect-event 231ms (cache miss)
+332 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-effect-event set size:undefined disposed:false
+333 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-escape-keydown 270ms (cache miss)
+334 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-escape-keydown set size:undefined disposed:false
+335 http fetch GET 200 https://registry.npmjs.org/react-remove-scroll-bar 377ms (cache miss)
+336 silly packumentCache full:https://registry.npmjs.org/react-remove-scroll-bar set size:undefined disposed:false
+337 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-layout-effect 443ms (cache miss)
+338 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-layout-effect set size:undefined disposed:false
+339 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-layout-effect 472ms (cache miss)
+340 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-layout-effect set size:undefined disposed:false
+341 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-layout-effect 481ms (cache miss)
+342 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-layout-effect set size:undefined disposed:false
+343 http fetch GET 200 https://registry.npmjs.org/use-sidecar 302ms (cache miss)
+344 silly packumentCache full:https://registry.npmjs.org/use-sidecar set size:undefined disposed:false
+345 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-layout-effect 531ms (cache miss)
+346 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-layout-effect set size:undefined disposed:false
+347 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-callback-ref 547ms (cache miss)
+348 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-callback-ref set size:undefined disposed:false
+349 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-callback-ref 553ms (cache miss)
+350 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-callback-ref set size:undefined disposed:false
+351 silly placeDep ROOT @radix-ui/react-use-callback-ref@1.1.1 OK for: @radix-ui/react-dismissable-layer@1.1.11 want: 1.1.1
+352 silly placeDep ROOT @radix-ui/react-use-escape-keydown@1.1.1 OK for: @radix-ui/react-dismissable-layer@1.1.11 want: 1.1.1
+353 silly placeDep ROOT @radix-ui/react-use-layout-effect@1.1.1 OK for: @radix-ui/react-id@1.1.1 want: 1.1.1
+354 silly placeDep ROOT @radix-ui/react-use-effect-event@0.0.2 OK for: @radix-ui/react-use-controllable-state@1.2.2 want: 0.0.2
+355 silly fetch manifest fsevents@~2.3.2
+356 silly packumentCache full:https://registry.npmjs.org/fsevents cache-miss
+357 http fetch GET 200 https://registry.npmjs.org/fsevents 206ms (cache miss)
+358 silly packumentCache full:https://registry.npmjs.org/fsevents set size:undefined disposed:false
+359 silly placeDep ROOT fsevents@2.3.3 OK for: chokidar@3.6.0 want: ~2.3.2
+360 silly placeDep ROOT motion-dom@12.38.0 OK for: framer-motion@12.38.0 want: ^12.38.0
+361 silly placeDep ROOT motion-utils@12.36.0 OK for: framer-motion@12.38.0 want: ^12.36.0
+362 silly placeDep ROOT @babel/runtime@7.29.2 OK for: json-schema-to-ts@3.1.1 want: ^7.18.3
+363 silly placeDep ROOT ts-algebra@2.0.0 OK for: json-schema-to-ts@3.1.1 want: ^2.0.0
+364 silly fetch manifest @next/swc-darwin-arm64@14.2.33
+365 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 cache-miss
+366 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-arm64 1011ms (cache miss)
+367 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 set size:undefined disposed:false
+368 silly fetch manifest @next/swc-darwin-x64@14.2.33
+369 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 cache-miss
+370 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-x64 898ms (cache miss)
+371 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 set size:undefined disposed:false
+372 silly fetch manifest @next/swc-linux-arm64-gnu@14.2.33
+373 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu cache-miss
+374 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu 875ms (cache miss)
+375 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu set size:undefined disposed:false
+376 silly fetch manifest @next/swc-linux-arm64-musl@14.2.33
+377 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl cache-miss
+378 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-musl 597ms (cache miss)
+379 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl set size:undefined disposed:false
+380 silly fetch manifest @next/swc-linux-x64-gnu@14.2.33
+381 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu cache-miss
+382 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-gnu 504ms (cache miss)
+383 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu set size:undefined disposed:false
+384 silly fetch manifest @next/swc-linux-x64-musl@14.2.33
+385 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl cache-miss
+386 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-musl 606ms (cache miss)
+387 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl set size:undefined disposed:false
+388 silly fetch manifest @next/swc-win32-arm64-msvc@14.2.33
+389 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc cache-miss
+390 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc 588ms (cache miss)
+391 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc set size:undefined disposed:false
+392 silly fetch manifest @next/swc-win32-ia32-msvc@14.2.33
+393 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-ia32-msvc cache-miss
+394 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-ia32-msvc 661ms (cache miss)
+395 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-ia32-msvc set size:undefined disposed:false
+396 silly placeDep ROOT @next/swc-darwin-arm64@14.2.33 OK for: next@14.2.35 want: 14.2.33
+397 silly placeDep ROOT @next/swc-darwin-x64@14.2.33 OK for: next@14.2.35 want: 14.2.33
+398 silly placeDep ROOT @next/swc-linux-arm64-gnu@14.2.33 OK for: next@14.2.35 want: 14.2.33
+399 silly placeDep ROOT @next/swc-linux-arm64-musl@14.2.33 OK for: next@14.2.35 want: 14.2.33
+400 silly placeDep ROOT @next/swc-linux-x64-gnu@14.2.33 OK for: next@14.2.35 want: 14.2.33
+401 silly placeDep ROOT @next/swc-linux-x64-musl@14.2.33 OK for: next@14.2.35 want: 14.2.33
+402 silly placeDep ROOT @next/swc-win32-arm64-msvc@14.2.33 OK for: next@14.2.35 want: 14.2.33
+403 silly placeDep ROOT @next/swc-win32-ia32-msvc@14.2.33 OK for: next@14.2.35 want: 14.2.33
+404 silly placeDep ROOT @napi-rs/canvas@0.1.80 OK for: pdf-parse@2.4.5 want: 0.1.80
+405 silly placeDep ROOT pdfjs-dist@5.4.296 OK for: pdf-parse@2.4.5 want: 5.4.296
+406 silly fetch manifest @napi-rs/canvas-darwin-x64@0.1.80
+407 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-darwin-x64 cache-miss
+408 silly fetch manifest @napi-rs/canvas-darwin-arm64@0.1.80
+409 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-darwin-arm64 cache-miss
+410 silly fetch manifest @napi-rs/canvas-android-arm64@0.1.80
+411 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-android-arm64 cache-miss
+412 silly fetch manifest @napi-rs/canvas-linux-x64-gnu@0.1.80
+413 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-x64-gnu cache-miss
+414 silly fetch manifest @napi-rs/canvas-linux-x64-musl@0.1.80
+415 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-x64-musl cache-miss
+416 silly fetch manifest @napi-rs/canvas-win32-x64-msvc@0.1.80
+417 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-win32-x64-msvc cache-miss
+418 silly fetch manifest @napi-rs/canvas-linux-arm64-gnu@0.1.80
+419 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm64-gnu cache-miss
+420 silly fetch manifest @napi-rs/canvas-linux-arm64-musl@0.1.80
+421 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm64-musl cache-miss
+422 silly fetch manifest @napi-rs/canvas-linux-riscv64-gnu@0.1.80
+423 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-riscv64-gnu cache-miss
+424 silly fetch manifest @napi-rs/canvas-linux-arm-gnueabihf@0.1.80
+425 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm-gnueabihf cache-miss
+426 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm64-gnu 247ms (cache miss)
+427 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm64-gnu set size:undefined disposed:false
+428 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-darwin-x64 264ms (cache miss)
+429 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-darwin-x64 set size:undefined disposed:false
+430 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-linux-x64-gnu 263ms (cache miss)
+431 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-x64-gnu set size:undefined disposed:false
+432 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-linux-x64-musl 269ms (cache miss)
+433 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-x64-musl set size:undefined disposed:false
+434 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-win32-x64-msvc 273ms (cache miss)
+435 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-win32-x64-msvc set size:undefined disposed:false
+436 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm64-musl 277ms (cache miss)
+437 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm64-musl set size:undefined disposed:false
+438 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-android-arm64 291ms (cache miss)
+439 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-android-arm64 set size:undefined disposed:false
+440 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm-gnueabihf 290ms (cache miss)
+441 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm-gnueabihf set size:undefined disposed:false
+442 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-darwin-arm64 311ms (cache miss)
+443 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-darwin-arm64 set size:undefined disposed:false
+444 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-linux-riscv64-gnu 332ms (cache miss)
+445 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-riscv64-gnu set size:undefined disposed:false
+446 silly placeDep ROOT @napi-rs/canvas-android-arm64@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+447 silly placeDep ROOT @napi-rs/canvas-darwin-arm64@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+448 silly placeDep ROOT @napi-rs/canvas-darwin-x64@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+449 silly placeDep ROOT @napi-rs/canvas-linux-arm-gnueabihf@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+450 silly placeDep ROOT @napi-rs/canvas-linux-arm64-gnu@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+451 silly placeDep ROOT @napi-rs/canvas-linux-arm64-musl@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+452 silly placeDep ROOT @napi-rs/canvas-linux-riscv64-gnu@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+453 silly placeDep ROOT @napi-rs/canvas-linux-x64-gnu@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+454 silly placeDep ROOT @napi-rs/canvas-linux-x64-musl@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+455 silly placeDep ROOT @napi-rs/canvas-win32-x64-msvc@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+456 silly fetch manifest react@^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc
+457 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+458 http cache https://registry.npmjs.org/react 64ms (cache hit)
+459 silly packumentCache full:https://registry.npmjs.org/react set size:6637568 disposed:false
+460 silly placeDep ROOT react-remove-scroll-bar@2.3.8 OK for: react-remove-scroll@2.7.2 want: ^2.3.7
+461 silly placeDep ROOT react-style-singleton@2.2.3 OK for: react-remove-scroll@2.7.2 want: ^2.2.3
+462 silly placeDep ROOT use-callback-ref@1.3.3 OK for: react-remove-scroll@2.7.2 want: ^1.3.3
+463 silly placeDep ROOT use-sidecar@1.1.3 OK for: react-remove-scroll@2.7.2 want: ^1.1.3
+464 silly fetch manifest react-style-singleton@^2.2.2
+465 silly packumentCache full:https://registry.npmjs.org/react-style-singleton cache-miss
+466 silly fetch manifest get-nonce@^1.0.0
+467 silly packumentCache full:https://registry.npmjs.org/get-nonce cache-miss
+468 silly fetch manifest detect-node-es@^1.1.0
+469 silly packumentCache full:https://registry.npmjs.org/detect-node-es cache-miss
+470 http cache https://registry.npmjs.org/react-style-singleton 26ms (cache hit)
+471 silly packumentCache full:https://registry.npmjs.org/react-style-singleton set size:33682 disposed:false
+472 http fetch GET 200 https://registry.npmjs.org/detect-node-es 147ms (cache miss)
+473 silly packumentCache full:https://registry.npmjs.org/detect-node-es set size:undefined disposed:false
+474 http fetch GET 200 https://registry.npmjs.org/get-nonce 152ms (cache miss)
+475 silly packumentCache full:https://registry.npmjs.org/get-nonce set size:undefined disposed:false
+476 silly placeDep ROOT get-nonce@1.0.1 OK for: react-style-singleton@2.2.3 want: ^1.0.0
+477 silly placeDep ROOT @img/colour@1.1.0 OK for: sharp@0.34.5 want: ^1.0.0
+478 silly placeDep ROOT @img/sharp-darwin-arm64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+479 silly placeDep ROOT @img/sharp-darwin-x64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+480 silly placeDep ROOT @img/sharp-libvips-darwin-arm64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+481 silly placeDep ROOT @img/sharp-libvips-darwin-x64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+482 silly placeDep ROOT @img/sharp-libvips-linux-arm@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+483 silly placeDep ROOT @img/sharp-libvips-linux-arm64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+484 silly placeDep ROOT @img/sharp-libvips-linux-ppc64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+485 silly placeDep ROOT @img/sharp-libvips-linux-riscv64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+486 silly placeDep ROOT @img/sharp-libvips-linux-s390x@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+487 silly placeDep ROOT @img/sharp-libvips-linux-x64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+488 silly placeDep ROOT @img/sharp-libvips-linuxmusl-arm64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+489 silly placeDep ROOT @img/sharp-libvips-linuxmusl-x64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+490 silly placeDep ROOT @img/sharp-linux-arm@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+491 silly placeDep ROOT @img/sharp-linux-arm64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+492 silly placeDep ROOT @img/sharp-linux-ppc64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+493 silly placeDep ROOT @img/sharp-linux-riscv64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+494 silly placeDep ROOT @img/sharp-linux-s390x@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+495 silly placeDep ROOT @img/sharp-linux-x64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+496 silly placeDep ROOT @img/sharp-linuxmusl-arm64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+497 silly placeDep ROOT @img/sharp-linuxmusl-x64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+498 silly placeDep ROOT @img/sharp-wasm32@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+499 silly placeDep ROOT @img/sharp-win32-arm64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+500 silly placeDep ROOT @img/sharp-win32-ia32@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+501 silly placeDep ROOT @img/sharp-win32-x64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+502 silly placeDep ROOT detect-libc@2.1.2 OK for: sharp@0.34.5 want: ^2.1.2
+503 silly fetch manifest @emnapi/runtime@^1.7.0
+504 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime cache-miss
+505 http fetch GET 200 https://registry.npmjs.org/@emnapi%2fruntime 184ms (cache miss)
+506 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime set size:undefined disposed:false
+507 silly placeDep ROOT @emnapi/runtime@1.10.0 OK for: @img/sharp-wasm32@0.34.5 want: ^1.7.0
+508 silly fetch manifest @unrs/resolver-binding-win32-arm64-msvc@1.11.1
+509 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-arm64-msvc cache-miss
+510 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-win32-arm64-msvc 155ms (cache miss)
+511 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-arm64-msvc set size:undefined disposed:false
+512 silly fetch manifest @unrs/resolver-binding-win32-ia32-msvc@1.11.1
+513 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-ia32-msvc cache-miss
+514 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-win32-ia32-msvc 156ms (cache miss)
+515 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-ia32-msvc set size:undefined disposed:false
+516 silly fetch manifest @unrs/resolver-binding-linux-x64-gnu@1.11.1
+517 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-gnu cache-miss
+518 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-gnu 152ms (cache miss)
+519 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-gnu set size:undefined disposed:false
+520 silly fetch manifest @unrs/resolver-binding-linux-x64-musl@1.11.1
+521 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-musl cache-miss
+522 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-musl 162ms (cache miss)
+523 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-musl set size:undefined disposed:false
+524 silly fetch manifest @unrs/resolver-binding-freebsd-x64@1.11.1
+525 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-freebsd-x64 cache-miss
+526 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-freebsd-x64 189ms (cache miss)
+527 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-freebsd-x64 set size:undefined disposed:false
+528 silly fetch manifest @unrs/resolver-binding-android-arm64@1.11.1
+529 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm64 cache-miss
+530 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm64 167ms (cache miss)
+531 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm64 set size:undefined disposed:false
+532 silly fetch manifest @unrs/resolver-binding-linux-arm64-gnu@1.11.1
+533 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-gnu cache-miss
+534 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-gnu 152ms (cache miss)
+535 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-gnu set size:undefined disposed:false
+536 silly fetch manifest @unrs/resolver-binding-linux-arm64-musl@1.11.1
+537 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-musl cache-miss
+538 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-musl 164ms (cache miss)
+539 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-musl set size:undefined disposed:false
+540 silly fetch manifest @unrs/resolver-binding-android-arm-eabi@1.11.1
+541 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm-eabi cache-miss
+542 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm-eabi 145ms (cache miss)
+543 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm-eabi set size:undefined disposed:false
+544 silly fetch manifest @unrs/resolver-binding-linux-arm-gnueabihf@1.11.1
+545 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-gnueabihf cache-miss
+546 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-gnueabihf 181ms (cache miss)
+547 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-gnueabihf set size:undefined disposed:false
+548 silly fetch manifest @unrs/resolver-binding-linux-arm-musleabihf@1.11.1
+549 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-musleabihf cache-miss
+550 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-musleabihf 163ms (cache miss)
+551 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-musleabihf set size:undefined disposed:false
+552 silly fetch manifest @unrs/resolver-binding-linux-ppc64-gnu@1.11.1
+553 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-ppc64-gnu cache-miss
+554 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-ppc64-gnu 157ms (cache miss)
+555 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-ppc64-gnu set size:undefined disposed:false
+556 silly fetch manifest @unrs/resolver-binding-linux-riscv64-gnu@1.11.1
+557 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-gnu cache-miss
+558 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-gnu 165ms (cache miss)
+559 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-gnu set size:undefined disposed:false
+560 silly fetch manifest @unrs/resolver-binding-linux-riscv64-musl@1.11.1
+561 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-musl cache-miss
+562 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-musl 148ms (cache miss)
+563 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-musl set size:undefined disposed:false
+564 silly fetch manifest @unrs/resolver-binding-linux-s390x-gnu@1.11.1
+565 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-s390x-gnu cache-miss
+566 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-s390x-gnu 166ms (cache miss)
+567 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-s390x-gnu set size:undefined disposed:false
+568 silly fetch manifest @unrs/resolver-binding-darwin-x64@1.11.1
+569 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-x64 cache-miss
+570 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-x64 166ms (cache miss)
+571 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-x64 set size:undefined disposed:false
+572 silly fetch manifest @unrs/resolver-binding-darwin-arm64@1.11.1
+573 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-arm64 cache-miss
+574 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-arm64 165ms (cache miss)
+575 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-arm64 set size:undefined disposed:false
+576 silly fetch manifest @unrs/resolver-binding-wasm32-wasi@1.11.1
+577 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-wasm32-wasi cache-miss
+578 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-wasm32-wasi 493ms (cache miss)
+579 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-wasm32-wasi set size:undefined disposed:false
+580 silly placeDep ROOT @unrs/resolver-binding-android-arm-eabi@1.11.1 OK for: unrs-resolver@1.11.1 want: 1.11.1
+581 silly placeDep ROOT @unrs/resolver-binding-android-arm64@1.11.1 OK for: unrs-resolver@1.11.1 want: 1.11.1
+582 silly placeDep ROOT @unrs/resolver-binding-darwin-arm64@1.11.1 OK for: unrs-resolver@1.11.1 want: 1.11.1
+583 silly placeDep ROOT @unrs/resolver-binding-darwin-x64@1.11.1 OK for: unrs-resolver@1.11.1 want: 1.11.1
+584 silly placeDep ROOT @unrs/resolver-binding-freebsd-x64@1.11.1 OK for: unrs-resolver@1.11.1 want: 1.11.1
+585 silly placeDep ROOT @unrs/resolver-binding-linux-arm-gnueabihf@1.11.1 OK for: unrs-resolver@1.11.1 want: 1.11.1
+586 silly placeDep ROOT @unrs/resolver-binding-linux-arm-musleabihf@1.11.1 OK for: unrs-resolver@1.11.1 want: 1.11.1
+587 silly placeDep ROOT @unrs/resolver-binding-linux-arm64-gnu@1.11.1 OK for: unrs-resolver@1.11.1 want: 1.11.1
+588 silly placeDep ROOT @unrs/resolver-binding-linux-arm64-musl@1.11.1 OK for: unrs-resolver@1.11.1 want: 1.11.1
+589 silly placeDep ROOT @unrs/resolver-binding-linux-ppc64-gnu@1.11.1 OK for: unrs-resolver@1.11.1 want: 1.11.1
+590 silly placeDep ROOT @unrs/resolver-binding-linux-riscv64-gnu@1.11.1 OK for: unrs-resolver@1.11.1 want: 1.11.1
+591 silly placeDep ROOT @unrs/resolver-binding-linux-riscv64-musl@1.11.1 OK for: unrs-resolver@1.11.1 want: 1.11.1
+592 silly placeDep ROOT @unrs/resolver-binding-linux-s390x-gnu@1.11.1 OK for: unrs-resolver@1.11.1 want: 1.11.1
+593 silly placeDep ROOT @unrs/resolver-binding-linux-x64-gnu@1.11.1 OK for: unrs-resolver@1.11.1 want: 1.11.1
+594 silly placeDep ROOT @unrs/resolver-binding-linux-x64-musl@1.11.1 OK for: unrs-resolver@1.11.1 want: 1.11.1
+595 silly placeDep ROOT @unrs/resolver-binding-wasm32-wasi@1.11.1 OK for: unrs-resolver@1.11.1 want: 1.11.1
+596 silly placeDep ROOT @unrs/resolver-binding-win32-arm64-msvc@1.11.1 OK for: unrs-resolver@1.11.1 want: 1.11.1
+597 silly placeDep ROOT @unrs/resolver-binding-win32-ia32-msvc@1.11.1 OK for: unrs-resolver@1.11.1 want: 1.11.1
+598 silly fetch manifest @napi-rs/wasm-runtime@^0.2.11
+599 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fwasm-runtime cache-miss
+600 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fwasm-runtime 148ms (cache miss)
+601 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fwasm-runtime set size:undefined disposed:false
+602 silly placeDep ROOT @napi-rs/wasm-runtime@0.2.12 OK for: @unrs/resolver-binding-wasm32-wasi@1.11.1 want: ^0.2.11
+603 silly fetch manifest @emnapi/core@^1.4.3
+604 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fcore cache-miss
+605 silly fetch manifest @tybys/wasm-util@^0.10.0
+606 silly packumentCache full:https://registry.npmjs.org/@tybys%2fwasm-util cache-miss
+607 http fetch GET 200 https://registry.npmjs.org/@emnapi%2fcore 152ms (cache miss)
+608 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fcore set size:undefined disposed:false
+609 http fetch GET 200 https://registry.npmjs.org/@tybys%2fwasm-util 181ms (cache miss)
+610 silly packumentCache full:https://registry.npmjs.org/@tybys%2fwasm-util set size:undefined disposed:false
+611 silly placeDep ROOT @emnapi/core@1.10.0 OK for: @napi-rs/wasm-runtime@0.2.12 want: ^1.4.3
+612 silly placeDep ROOT @tybys/wasm-util@0.10.2 OK for: @napi-rs/wasm-runtime@0.2.12 want: ^0.10.0
+613 silly fetch manifest @emnapi/wasi-threads@1.2.1
+614 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fwasi-threads cache-miss
+615 http fetch GET 200 https://registry.npmjs.org/@emnapi%2fwasi-threads 158ms (cache miss)
+616 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fwasi-threads set size:undefined disposed:false
+617 silly placeDep ROOT @emnapi/wasi-threads@1.2.1 OK for: @emnapi/core@1.10.0 want: 1.2.1
+618 silly placeDep ROOT detect-node-es@1.1.0 OK for: use-sidecar@1.1.3 want: ^1.1.0
+619 silly reify mark retired [
+619 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\acorn',
+619 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\acorn',
+619 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\acorn.cmd',
+619 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\acorn.ps1'
+619 silly reify ]
+620 silly reify mark retired [
+620 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\cssesc',
+620 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\cssesc',
+620 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\cssesc.cmd',
+620 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\cssesc.ps1'
+620 silly reify ]
+621 silly reify mark retired [
+621 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint',
+621 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\eslint',
+621 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\eslint.cmd',
+621 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\eslint.ps1'
+621 silly reify ]
+622 silly reify mark retired [
+622 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-import\\node_modules\\semver',
+622 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\semver',
+622 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\semver.cmd',
+622 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\semver.ps1'
+622 silly reify ]
+623 silly reify mark retired [
+623 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-react\\node_modules\\semver',
+623 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\semver',
+623 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\semver.cmd',
+623 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\semver.ps1'
+623 silly reify ]
+624 silly reify mark retired [
+624 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\glob',
+624 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\glob',
+624 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\glob.cmd',
+624 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\glob.ps1'
+624 silly reify ]
+625 silly reify mark retired [
+625 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\jiti',
+625 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\jiti',
+625 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\jiti.cmd',
+625 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\jiti.ps1'
+625 silly reify ]
+626 silly reify mark retired [
+626 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\js-yaml',
+626 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\js-yaml',
+626 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\js-yaml.cmd',
+626 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\js-yaml.ps1'
+626 silly reify ]
+627 silly reify mark retired [
+627 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\json5',
+627 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\json5',
+627 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\json5.cmd',
+627 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\json5.ps1'
+627 silly reify ]
+628 silly reify mark retired [
+628 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\loose-envify',
+628 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\loose-envify',
+628 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\loose-envify.cmd',
+628 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\loose-envify.ps1'
+628 silly reify ]
+629 silly reify mark retired [
+629 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\nanoid',
+629 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\nanoid',
+629 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\nanoid.cmd',
+629 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\nanoid.ps1'
+629 silly reify ]
+630 silly reify mark retired [
+630 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\napi-postinstall',
+630 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\napi-postinstall',
+630 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\napi-postinstall.cmd',
+630 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\napi-postinstall.ps1'
+630 silly reify ]
+631 silly reify mark retired [
+631 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\next',
+631 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\next',
+631 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\next.cmd',
+631 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\next.ps1'
+631 silly reify ]
+632 silly reify mark retired [
+632 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\node-exports-info\\node_modules\\semver',
+632 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\node-exports-info\\node_modules\\.bin\\semver',
+632 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\node-exports-info\\node_modules\\.bin\\semver.cmd',
+632 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\node-exports-info\\node_modules\\.bin\\semver.ps1'
+632 silly reify ]
+633 silly reify mark retired [
+633 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\postcss-import\\node_modules\\resolve',
+633 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\postcss-import\\node_modules\\.bin\\resolve',
+633 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\postcss-import\\node_modules\\.bin\\resolve.cmd',
+633 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\postcss-import\\node_modules\\.bin\\resolve.ps1'
+633 silly reify ]
+634 silly reify mark retired [
+634 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\resolve',
+634 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\resolve',
+634 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\resolve.cmd',
+634 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\resolve.ps1'
+634 silly reify ]
+635 silly reify mark retired [
+635 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\rimraf',
+635 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\rimraf',
+635 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\rimraf.cmd',
+635 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\rimraf.ps1'
+635 silly reify ]
+636 silly reify mark retired [
+636 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\semver',
+636 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\semver',
+636 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\semver.cmd',
+636 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\semver.ps1'
+636 silly reify ]
+637 silly reify mark retired [
+637 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\sucrase',
+637 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\sucrase',
+637 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\sucrase.cmd',
+637 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\sucrase.ps1',
+637 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\sucrase-node',
+637 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\sucrase-node.cmd',
+637 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\sucrase-node.ps1'
+637 silly reify ]
+638 silly reify mark retired [
+638 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\tailwindcss',
+638 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tailwind',
+638 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tailwind.cmd',
+638 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tailwind.ps1',
+638 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tailwindcss',
+638 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tailwindcss.cmd',
+638 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tailwindcss.ps1'
+638 silly reify ]
+639 silly reify mark retired [
+639 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\typescript',
+639 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tsc',
+639 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tsc.cmd',
+639 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tsc.ps1',
+639 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tsserver',
+639 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tsserver.cmd',
+639 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tsserver.ps1'
+639 silly reify ]
+640 silly reify mark retired [
+640 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\which',
+640 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\node-which',
+640 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\node-which.cmd',
+640 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\node-which.ps1'
+640 silly reify ]
+641 silly reify moves {
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\acorn': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.acorn-DmdhUm8a',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\acorn': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.acorn-liAqRGfP',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\acorn.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.acorn.cmd-JzXs32rV',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\acorn.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.acorn.ps1-IT3CBBis',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\cssesc': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.cssesc-Pq0RMGn0',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\cssesc': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.cssesc-pujeeVe6',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\cssesc.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.cssesc.cmd-Kt6jP430',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\cssesc.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.cssesc.ps1-mCmDTMOd',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.eslint-P7q6Wf1j',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\eslint': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.eslint-xsGRP02B',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\eslint.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.eslint.cmd-axqRZzEj',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\eslint.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.eslint.ps1-fZLvYN1B',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-import\\node_modules\\semver': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-import\\node_modules\\.semver-k2XUR7dU',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\semver': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\.semver-0lhkd9uO',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\.semver.cmd-mYnZJx2B',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\.semver.ps1-JHTJh1to',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-react\\node_modules\\semver': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-react\\node_modules\\.semver-10L7rmLM',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\semver': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\.semver-yXSn4FnN',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\.semver.cmd-mqjn88rP',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\.semver.ps1-SHtAW7U1',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\glob': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.glob-AnOXKNH2',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\glob': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.glob-tbiClH1W',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\glob.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.glob.cmd-LKFhXCx6',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\glob.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.glob.ps1-HaOem67p',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\jiti': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.jiti-ahgaytDL',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\jiti': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.jiti-4aB3Nh2J',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\jiti.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.jiti.cmd-lMP4Nhcg',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\jiti.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.jiti.ps1-QoH2GMvl',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\js-yaml': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.js-yaml-rj2KxqrT',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\js-yaml': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.js-yaml-eYtB1blZ',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\js-yaml.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.js-yaml.cmd-Him4EnwZ',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\js-yaml.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.js-yaml.ps1-8EMq4tQX',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\json5': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.json5-DIeNbP61',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\json5': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.json5-3eDIA2dW',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\json5.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.json5.cmd-PvYJvju1',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\json5.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.json5.ps1-hxdfqlCb',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\loose-envify': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.loose-envify-jKl4YllS',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\loose-envify': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.loose-envify-gvFRcRTo',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\loose-envify.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.loose-envify.cmd-e8GYKz8l',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\loose-envify.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.loose-envify.ps1-wQStQLCM',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\nanoid': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.nanoid-i376tYyi',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\nanoid': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.nanoid-Vtl9RG03',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\nanoid.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.nanoid.cmd-pcIhKnQE',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\nanoid.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.nanoid.ps1-CQ9CC4zg',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\napi-postinstall': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.napi-postinstall-8jrUoFWH',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\napi-postinstall': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.napi-postinstall-QXDaE3VL',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\napi-postinstall.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.napi-postinstall.cmd-TliBbQ42',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\napi-postinstall.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.napi-postinstall.ps1-SwSnYyLl',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\next': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.next-MSfkOHqs',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\next': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.next-0mfnxtz7',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\next.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.next.cmd-BzsxIYBI',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\next.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.next.ps1-2PbCSNMd',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\node-exports-info\\node_modules\\semver': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\node-exports-info\\node_modules\\.semver-coGsObLg',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\node-exports-info\\node_modules\\.bin\\semver': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\node-exports-info\\node_modules\\.bin\\.semver-g0TjZPq7',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\node-exports-info\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\node-exports-info\\node_modules\\.bin\\.semver.cmd-Z9SzPOAq',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\node-exports-info\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\node-exports-info\\node_modules\\.bin\\.semver.ps1-LzmS7s0H',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\postcss-import\\node_modules\\resolve': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\postcss-import\\node_modules\\.resolve-wVN0JHHa',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\postcss-import\\node_modules\\.bin\\resolve': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\postcss-import\\node_modules\\.bin\\.resolve-RRvdkwZg',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\postcss-import\\node_modules\\.bin\\resolve.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\postcss-import\\node_modules\\.bin\\.resolve.cmd-1wBklGwA',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\postcss-import\\node_modules\\.bin\\resolve.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\postcss-import\\node_modules\\.bin\\.resolve.ps1-dNEzXcAq',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\resolve': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.resolve-5xTkUVDr',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\resolve': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.resolve-8cqTXdmp',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\resolve.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.resolve.cmd-hl2BAJmL',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\resolve.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.resolve.ps1-pvSBJXPY',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\rimraf': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.rimraf-6n4uVDBi',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\rimraf': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.rimraf-XFqhRwji',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\rimraf.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.rimraf.cmd-8A4x57La',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\rimraf.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.rimraf.ps1-CCOj6Pje',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\semver': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.semver-9NTQGoj1',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\semver': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.semver-ZfGV0jsA',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.semver.cmd-QmPja9rG',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.semver.ps1-Vi4o9pGw',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\sucrase': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.sucrase-xTeRsplV',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\sucrase': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.sucrase-8rPXLfEy',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\sucrase.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.sucrase.cmd-tLyYrV8C',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\sucrase.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.sucrase.ps1-rSSvAzxY',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\sucrase-node': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.sucrase-node-fp3Bup6D',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\sucrase-node.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.sucrase-node.cmd-7U9heT7s',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\sucrase-node.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.sucrase-node.ps1-kXeMkmFm',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\tailwindcss': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.tailwindcss-3isRjLcg',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tailwind': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.tailwind-hVoVHcsX',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tailwind.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.tailwind.cmd-Nlalzt3S',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tailwind.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.tailwind.ps1-mpfvYmwJ',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tailwindcss': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.tailwindcss-oNwSp9aL',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tailwindcss.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.tailwindcss.cmd-4oULQfAQ',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tailwindcss.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.tailwindcss.ps1-WGqw9o8l',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\typescript': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.typescript-ImgOpM61',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tsc': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.tsc-Ld9SuEV9',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tsc.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.tsc.cmd-dsu5AKGv',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tsc.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.tsc.ps1-mEksXLsh',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tsserver': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.tsserver-seq1HRsu',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tsserver.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.tsserver.cmd-u9IJuv6C',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\tsserver.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.tsserver.ps1-wlKlqZzx',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\which': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.which-LEtNemmn',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\node-which': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.node-which-sYgmZNu3',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\node-which.cmd': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.node-which.cmd-rAFSBb6v',
+641 silly reify   'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\node-which.ps1': 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\.bin\\.node-which.ps1-Bpn0Ccns'
+641 silly reify }
+642 http cache @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz 0ms (cache hit)
+643 http cache @img/sharp-win32-x64@https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.5.tgz 0ms (cache hit)
+644 http cache detect-node-es@https://registry.npmjs.org/detect-node-es/-/detect-node-es-1.1.0.tgz 0ms (cache hit)
+645 http cache detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 0ms (cache hit)
+646 http cache get-nonce@https://registry.npmjs.org/get-nonce/-/get-nonce-1.0.1.tgz 0ms (cache hit)
+647 http cache use-callback-ref@https://registry.npmjs.org/use-callback-ref/-/use-callback-ref-1.3.3.tgz 0ms (cache hit)
+648 http cache use-sidecar@https://registry.npmjs.org/use-sidecar/-/use-sidecar-1.1.3.tgz 0ms (cache hit)
+649 http cache @img/colour@https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz 0ms (cache hit)
+650 http cache react-style-singleton@https://registry.npmjs.org/react-style-singleton/-/react-style-singleton-2.2.3.tgz 0ms (cache hit)
+651 http cache @napi-rs/canvas-win32-x64-msvc@https://registry.npmjs.org/@napi-rs/canvas-win32-x64-msvc/-/canvas-win32-x64-msvc-0.1.80.tgz 0ms (cache hit)
+652 http cache @napi-rs/canvas@https://registry.npmjs.org/@napi-rs/canvas/-/canvas-0.1.80.tgz 0ms (cache hit)
+653 http cache react-remove-scroll-bar@https://registry.npmjs.org/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz 0ms (cache hit)
+654 http cache @babel/runtime@https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.2.tgz 0ms (cache hit)
+655 http cache pdfjs-dist@https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-5.4.296.tgz 0ms (cache hit)
+656 http cache ts-algebra@https://registry.npmjs.org/ts-algebra/-/ts-algebra-2.0.0.tgz 0ms (cache hit)
+657 http cache motion-dom@https://registry.npmjs.org/motion-dom/-/motion-dom-12.38.0.tgz 0ms (cache hit)
+658 http cache motion-utils@https://registry.npmjs.org/motion-utils/-/motion-utils-12.36.0.tgz 0ms (cache hit)
+659 http cache @radix-ui/react-use-callback-ref@https://registry.npmjs.org/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-1.1.1.tgz 0ms (cache hit)
+660 http cache @radix-ui/react-use-effect-event@https://registry.npmjs.org/@radix-ui/react-use-effect-event/-/react-use-effect-event-0.0.2.tgz 0ms (cache hit)
+661 http cache @radix-ui/react-use-layout-effect@https://registry.npmjs.org/@radix-ui/react-use-layout-effect/-/react-use-layout-effect-1.1.1.tgz 0ms (cache hit)
+662 http cache @radix-ui/react-use-escape-keydown@https://registry.npmjs.org/@radix-ui/react-use-escape-keydown/-/react-use-escape-keydown-1.1.1.tgz 0ms (cache hit)
+663 http cache react-remove-scroll@https://registry.npmjs.org/react-remove-scroll/-/react-remove-scroll-2.7.2.tgz 0ms (cache hit)
+664 http cache aria-hidden@https://registry.npmjs.org/aria-hidden/-/aria-hidden-1.2.6.tgz 0ms (cache hit)
+665 http cache @radix-ui/react-slot@https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.2.3.tgz 0ms (cache hit)
+666 http cache @radix-ui/react-primitive@https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.1.3.tgz 0ms (cache hit)
+667 http cache @radix-ui/react-use-controllable-state@https://registry.npmjs.org/@radix-ui/react-use-controllable-state/-/react-use-controllable-state-1.2.2.tgz 0ms (cache hit)
+668 http cache @radix-ui/react-presence@https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.5.tgz 0ms (cache hit)
+669 http cache @radix-ui/react-portal@https://registry.npmjs.org/@radix-ui/react-portal/-/react-portal-1.1.9.tgz 0ms (cache hit)
+670 http cache @radix-ui/react-focus-scope@https://registry.npmjs.org/@radix-ui/react-focus-scope/-/react-focus-scope-1.1.7.tgz 0ms (cache hit)
+671 http cache @radix-ui/react-id@https://registry.npmjs.org/@radix-ui/react-id/-/react-id-1.1.1.tgz 0ms (cache hit)
+672 http cache @radix-ui/react-focus-guards@https://registry.npmjs.org/@radix-ui/react-focus-guards/-/react-focus-guards-1.1.3.tgz 0ms (cache hit)
+673 http cache @radix-ui/react-context@https://registry.npmjs.org/@radix-ui/react-context/-/react-context-1.1.2.tgz 0ms (cache hit)
+674 http cache @radix-ui/react-compose-refs@https://registry.npmjs.org/@radix-ui/react-compose-refs/-/react-compose-refs-1.1.2.tgz 0ms (cache hit)
+675 http cache @radix-ui/react-dismissable-layer@https://registry.npmjs.org/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.1.11.tgz 0ms (cache hit)
+676 http cache json-schema-to-ts@https://registry.npmjs.org/json-schema-to-ts/-/json-schema-to-ts-3.1.1.tgz 0ms (cache hit)
+677 http cache @radix-ui/primitive@https://registry.npmjs.org/@radix-ui/primitive/-/primitive-1.1.3.tgz 0ms (cache hit)
+678 http cache sharp@https://registry.npmjs.org/sharp/-/sharp-0.34.5.tgz 0ms (cache hit)
+679 http cache pdf-parse@https://registry.npmjs.org/pdf-parse/-/pdf-parse-2.4.5.tgz 0ms (cache hit)
+680 http cache tailwind-merge@https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-3.5.0.tgz 0ms (cache hit)
+681 http cache next-themes@https://registry.npmjs.org/next-themes/-/next-themes-0.4.6.tgz 0ms (cache hit)
+682 http cache @radix-ui/react-dialog@https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.15.tgz 0ms (cache hit)
+683 http cache framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-12.38.0.tgz 0ms (cache hit)
+684 http cache lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-1.14.0.tgz 0ms (cache hit)
+685 silly packumentCache corgi:https://registry.npmjs.org/typescript cache-miss
+686 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+687 silly packumentCache corgi:https://registry.npmjs.org/sucrase cache-miss
+688 silly packumentCache corgi:https://registry.npmjs.org/tailwindcss cache-miss
+689 silly packumentCache corgi:https://registry.npmjs.org/resolve cache-miss
+690 silly packumentCache corgi:https://registry.npmjs.org/rimraf cache-miss
+691 silly packumentCache corgi:https://registry.npmjs.org/napi-postinstall cache-miss
+692 silly packumentCache corgi:https://registry.npmjs.org/next cache-miss
+693 silly packumentCache corgi:https://registry.npmjs.org/which cache-miss
+694 silly packumentCache corgi:https://registry.npmjs.org/nanoid cache-miss
+695 http cache @anthropic-ai/sdk@https://registry.npmjs.org/@anthropic-ai/sdk/-/sdk-0.93.0.tgz 0ms (cache hit)
+696 silly packumentCache corgi:https://registry.npmjs.org/json5 cache-miss
+697 silly packumentCache corgi:https://registry.npmjs.org/loose-envify cache-miss
+698 http cache clsx@https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz 0ms (cache hit)
+699 silly packumentCache corgi:https://registry.npmjs.org/glob cache-miss
+700 silly packumentCache corgi:https://registry.npmjs.org/jiti cache-miss
+701 silly packumentCache corgi:https://registry.npmjs.org/js-yaml cache-miss
+702 silly packumentCache corgi:https://registry.npmjs.org/resolve cache-miss
+703 silly packumentCache corgi:https://registry.npmjs.org/eslint cache-miss
+704 silly packumentCache corgi:https://registry.npmjs.org/acorn cache-miss
+705 silly packumentCache corgi:https://registry.npmjs.org/cssesc cache-miss
+706 silly packumentCache corgi:https://registry.npmjs.org/resolve cache-miss
+707 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+708 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+709 silly tarball no local data for @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz. Extracting by manifest.
+710 silly tarball no local data for @img/sharp-win32-x64@https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.5.tgz. Extracting by manifest.
+711 silly tarball no local data for detect-node-es@https://registry.npmjs.org/detect-node-es/-/detect-node-es-1.1.0.tgz. Extracting by manifest.
+712 silly tarball no local data for detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz. Extracting by manifest.
+713 silly tarball no local data for get-nonce@https://registry.npmjs.org/get-nonce/-/get-nonce-1.0.1.tgz. Extracting by manifest.
+714 silly tarball no local data for use-callback-ref@https://registry.npmjs.org/use-callback-ref/-/use-callback-ref-1.3.3.tgz. Extracting by manifest.
+715 silly tarball no local data for use-sidecar@https://registry.npmjs.org/use-sidecar/-/use-sidecar-1.1.3.tgz. Extracting by manifest.
+716 silly tarball no local data for @img/colour@https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz. Extracting by manifest.
+717 silly tarball no local data for react-style-singleton@https://registry.npmjs.org/react-style-singleton/-/react-style-singleton-2.2.3.tgz. Extracting by manifest.
+718 silly tarball no local data for @napi-rs/canvas-win32-x64-msvc@https://registry.npmjs.org/@napi-rs/canvas-win32-x64-msvc/-/canvas-win32-x64-msvc-0.1.80.tgz. Extracting by manifest.
+719 silly tarball no local data for @napi-rs/canvas@https://registry.npmjs.org/@napi-rs/canvas/-/canvas-0.1.80.tgz. Extracting by manifest.
+720 silly tarball no local data for react-remove-scroll-bar@https://registry.npmjs.org/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz. Extracting by manifest.
+721 silly tarball no local data for @babel/runtime@https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.2.tgz. Extracting by manifest.
+722 silly tarball no local data for pdfjs-dist@https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-5.4.296.tgz. Extracting by manifest.
+723 silly tarball no local data for ts-algebra@https://registry.npmjs.org/ts-algebra/-/ts-algebra-2.0.0.tgz. Extracting by manifest.
+724 silly tarball no local data for motion-dom@https://registry.npmjs.org/motion-dom/-/motion-dom-12.38.0.tgz. Extracting by manifest.
+725 silly tarball no local data for motion-utils@https://registry.npmjs.org/motion-utils/-/motion-utils-12.36.0.tgz. Extracting by manifest.
+726 silly tarball no local data for @radix-ui/react-use-callback-ref@https://registry.npmjs.org/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-1.1.1.tgz. Extracting by manifest.
+727 silly tarball no local data for @radix-ui/react-use-effect-event@https://registry.npmjs.org/@radix-ui/react-use-effect-event/-/react-use-effect-event-0.0.2.tgz. Extracting by manifest.
+728 silly tarball no local data for @radix-ui/react-use-layout-effect@https://registry.npmjs.org/@radix-ui/react-use-layout-effect/-/react-use-layout-effect-1.1.1.tgz. Extracting by manifest.
+729 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+730 silly tarball no local data for @radix-ui/react-use-escape-keydown@https://registry.npmjs.org/@radix-ui/react-use-escape-keydown/-/react-use-escape-keydown-1.1.1.tgz. Extracting by manifest.
+731 silly tarball no local data for react-remove-scroll@https://registry.npmjs.org/react-remove-scroll/-/react-remove-scroll-2.7.2.tgz. Extracting by manifest.
+732 silly tarball no local data for aria-hidden@https://registry.npmjs.org/aria-hidden/-/aria-hidden-1.2.6.tgz. Extracting by manifest.
+733 silly tarball no local data for @radix-ui/react-slot@https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.2.3.tgz. Extracting by manifest.
+734 silly tarball no local data for @radix-ui/react-primitive@https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.1.3.tgz. Extracting by manifest.
+735 silly tarball no local data for @radix-ui/react-use-controllable-state@https://registry.npmjs.org/@radix-ui/react-use-controllable-state/-/react-use-controllable-state-1.2.2.tgz. Extracting by manifest.
+736 silly tarball no local data for @radix-ui/react-presence@https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.5.tgz. Extracting by manifest.
+737 silly tarball no local data for @radix-ui/react-portal@https://registry.npmjs.org/@radix-ui/react-portal/-/react-portal-1.1.9.tgz. Extracting by manifest.
+738 silly tarball no local data for @radix-ui/react-focus-scope@https://registry.npmjs.org/@radix-ui/react-focus-scope/-/react-focus-scope-1.1.7.tgz. Extracting by manifest.
+739 silly tarball no local data for @radix-ui/react-id@https://registry.npmjs.org/@radix-ui/react-id/-/react-id-1.1.1.tgz. Extracting by manifest.
+740 silly tarball no local data for @radix-ui/react-focus-guards@https://registry.npmjs.org/@radix-ui/react-focus-guards/-/react-focus-guards-1.1.3.tgz. Extracting by manifest.
+741 silly tarball no local data for @radix-ui/react-context@https://registry.npmjs.org/@radix-ui/react-context/-/react-context-1.1.2.tgz. Extracting by manifest.
+742 silly tarball no local data for @radix-ui/react-compose-refs@https://registry.npmjs.org/@radix-ui/react-compose-refs/-/react-compose-refs-1.1.2.tgz. Extracting by manifest.
+743 silly tarball no local data for @radix-ui/react-dismissable-layer@https://registry.npmjs.org/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.1.11.tgz. Extracting by manifest.
+744 silly tarball no local data for json-schema-to-ts@https://registry.npmjs.org/json-schema-to-ts/-/json-schema-to-ts-3.1.1.tgz. Extracting by manifest.
+745 silly tarball no local data for @radix-ui/primitive@https://registry.npmjs.org/@radix-ui/primitive/-/primitive-1.1.3.tgz. Extracting by manifest.
+746 silly tarball no local data for sharp@https://registry.npmjs.org/sharp/-/sharp-0.34.5.tgz. Extracting by manifest.
+747 silly tarball no local data for pdf-parse@https://registry.npmjs.org/pdf-parse/-/pdf-parse-2.4.5.tgz. Extracting by manifest.
+748 silly tarball no local data for tailwind-merge@https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-3.5.0.tgz. Extracting by manifest.
+749 silly tarball no local data for next-themes@https://registry.npmjs.org/next-themes/-/next-themes-0.4.6.tgz. Extracting by manifest.
+750 silly tarball no local data for @radix-ui/react-dialog@https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.15.tgz. Extracting by manifest.
+751 silly tarball no local data for framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-12.38.0.tgz. Extracting by manifest.
+752 silly tarball no local data for lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-1.14.0.tgz. Extracting by manifest.
+753 silly tarball no local data for @anthropic-ai/sdk@https://registry.npmjs.org/@anthropic-ai/sdk/-/sdk-0.93.0.tgz. Extracting by manifest.
+754 silly tarball no local data for clsx@https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz. Extracting by manifest.
+755 http fetch GET 200 https://registry.npmjs.org/json5 397ms (cache miss)
+756 silly packumentCache corgi:https://registry.npmjs.org/json5 set size:undefined disposed:false
+757 http fetch GET 200 https://registry.npmjs.org/which 418ms (cache miss)
+758 silly packumentCache corgi:https://registry.npmjs.org/which set size:undefined disposed:false
+759 http fetch GET 200 https://registry.npmjs.org/semver 433ms (cache miss)
+760 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+761 http fetch GET 200 https://registry.npmjs.org/nanoid 443ms (cache miss)
+762 silly packumentCache corgi:https://registry.npmjs.org/nanoid set size:undefined disposed:false
+763 http fetch GET 200 https://registry.npmjs.org/resolve 458ms (cache miss)
+764 silly packumentCache corgi:https://registry.npmjs.org/resolve set size:undefined disposed:false
+765 http fetch GET 200 https://registry.npmjs.org/rimraf 464ms (cache miss)
+766 silly packumentCache corgi:https://registry.npmjs.org/rimraf set size:undefined disposed:false
+767 http fetch GET 200 https://registry.npmjs.org/sucrase 478ms (cache miss)
+768 silly packumentCache corgi:https://registry.npmjs.org/sucrase set size:undefined disposed:false
+769 http fetch GET 200 https://registry.npmjs.org/cssesc 1420ms (cache miss)
+770 silly packumentCache corgi:https://registry.npmjs.org/cssesc set size:undefined disposed:false
+771 http fetch GET 200 https://registry.npmjs.org/resolve 1988ms (cache miss)
+772 silly packumentCache corgi:https://registry.npmjs.org/resolve set size:undefined disposed:false
+773 http fetch GET 200 https://registry.npmjs.org/acorn 2011ms (cache miss)
+774 silly packumentCache corgi:https://registry.npmjs.org/acorn set size:undefined disposed:false
+775 http fetch GET 200 https://registry.npmjs.org/napi-postinstall 2066ms (cache miss)
+776 silly packumentCache corgi:https://registry.npmjs.org/napi-postinstall set size:undefined disposed:false
+777 http fetch GET 200 https://registry.npmjs.org/resolve 2080ms (cache miss)
+778 silly packumentCache corgi:https://registry.npmjs.org/resolve set size:undefined disposed:false
+779 http fetch GET 200 https://registry.npmjs.org/semver 2086ms (cache miss)
+780 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+781 http fetch GET 200 https://registry.npmjs.org/tailwindcss 2367ms (cache miss)
+782 silly packumentCache corgi:https://registry.npmjs.org/tailwindcss set size:undefined disposed:false
+783 http fetch GET 200 https://registry.npmjs.org/semver 2565ms (cache miss)
+784 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+785 http fetch GET 200 https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 2701ms (cache miss)
+786 http fetch GET 200 https://registry.npmjs.org/get-nonce/-/get-nonce-1.0.1.tgz 2763ms (cache miss)
+787 http fetch GET 200 https://registry.npmjs.org/use-callback-ref/-/use-callback-ref-1.3.3.tgz 2764ms (cache miss)
+788 http fetch GET 200 https://registry.npmjs.org/eslint 3027ms (cache miss)
+789 silly packumentCache corgi:https://registry.npmjs.org/eslint set size:undefined disposed:false
+790 http fetch GET 200 https://registry.npmjs.org/glob 3071ms (cache miss)
+791 silly packumentCache corgi:https://registry.npmjs.org/glob set size:undefined disposed:false
+792 http fetch GET 200 https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz 3165ms (cache miss)
+793 http fetch GET 200 https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz 3368ms (cache miss)
+794 http fetch GET 200 https://registry.npmjs.org/@napi-rs/canvas/-/canvas-0.1.80.tgz 3486ms (cache miss)
+795 http fetch GET 200 https://registry.npmjs.org/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz 3506ms (cache miss)
+796 http fetch GET 200 https://registry.npmjs.org/use-sidecar/-/use-sidecar-1.1.3.tgz 3655ms (cache miss)
+797 http fetch GET 200 https://registry.npmjs.org/jiti 3870ms (cache miss)
+798 silly packumentCache corgi:https://registry.npmjs.org/jiti set size:undefined disposed:false
+799 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-1.1.1.tgz 4028ms (cache miss)
+800 http fetch GET 200 https://registry.npmjs.org/loose-envify 4250ms (cache miss)
+801 silly packumentCache corgi:https://registry.npmjs.org/loose-envify set size:undefined disposed:false
+802 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-effect-event/-/react-use-effect-event-0.0.2.tgz 4191ms (cache miss)
+803 http fetch GET 200 https://registry.npmjs.org/js-yaml 4295ms (cache miss)
+804 silly packumentCache corgi:https://registry.npmjs.org/js-yaml set size:undefined disposed:false
+805 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-layout-effect/-/react-use-layout-effect-1.1.1.tgz 4356ms (cache miss)
+806 http fetch GET 200 https://registry.npmjs.org/semver 4656ms (cache miss)
+807 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+808 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.1.3.tgz 4812ms (cache miss)
+809 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-controllable-state/-/react-use-controllable-state-1.2.2.tgz 4820ms (cache miss)
+810 http fetch GET 200 https://registry.npmjs.org/react-style-singleton/-/react-style-singleton-2.2.3.tgz 4894ms (cache miss)
+811 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-escape-keydown/-/react-use-escape-keydown-1.1.1.tgz 4862ms (cache miss)
+812 http fetch GET 200 https://registry.npmjs.org/aria-hidden/-/aria-hidden-1.2.6.tgz 5009ms (cache miss)
+813 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-focus-guards/-/react-focus-guards-1.1.3.tgz 4997ms (cache miss)
+814 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-context/-/react-context-1.1.2.tgz 5009ms (cache miss)
+815 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-id/-/react-id-1.1.1.tgz 5017ms (cache miss)
+816 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-compose-refs/-/react-compose-refs-1.1.2.tgz 5057ms (cache miss)
+817 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.2.3.tgz 5097ms (cache miss)
+818 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-portal/-/react-portal-1.1.9.tgz 5149ms (cache miss)
+819 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.5.tgz 5182ms (cache miss)
+820 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-focus-scope/-/react-focus-scope-1.1.7.tgz 5221ms (cache miss)
+821 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.1.11.tgz 5228ms (cache miss)
+822 http fetch GET 200 https://registry.npmjs.org/@radix-ui/primitive/-/primitive-1.1.3.tgz 5226ms (cache miss)
+823 http fetch GET 200 https://registry.npmjs.org/typescript 5490ms (cache miss)
+824 silly packumentCache corgi:https://registry.npmjs.org/typescript set size:undefined disposed:false
+825 http fetch GET 200 https://registry.npmjs.org/next-themes/-/next-themes-0.4.6.tgz 5624ms (cache miss)
+826 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.15.tgz 5735ms (cache miss)
+827 http fetch GET 200 https://registry.npmjs.org/next 5984ms (cache miss)
+828 silly packumentCache corgi:https://registry.npmjs.org/next set size:undefined disposed:false
+829 http fetch GET 200 https://registry.npmjs.org/which/-/which-2.0.2.tgz 6419ms (cache miss)
+830 http fetch GET 200 https://registry.npmjs.org/detect-node-es/-/detect-node-es-1.1.0.tgz 6818ms (cache miss)
+831 http fetch GET 200 https://registry.npmjs.org/json5/-/json5-1.0.2.tgz 6449ms (cache miss)
+832 http fetch GET 200 https://registry.npmjs.org/sharp/-/sharp-0.34.5.tgz 6835ms (cache miss)
+833 http fetch GET 200 https://registry.npmjs.org/react-remove-scroll/-/react-remove-scroll-2.7.2.tgz 7046ms (cache miss)
+834 http fetch GET 200 https://registry.npmjs.org/motion-utils/-/motion-utils-12.36.0.tgz 7077ms (cache miss)
+835 http fetch GET 200 https://registry.npmjs.org/ts-algebra/-/ts-algebra-2.0.0.tgz 7093ms (cache miss)
+836 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.7.4.tgz 6773ms (cache miss)
+837 http fetch GET 200 https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz 6791ms (cache miss)
+838 http fetch GET 200 https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.2.tgz 7472ms (cache miss)
+839 http fetch GET 200 https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz 7391ms (cache miss)
+840 http fetch GET 200 https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz 6323ms (cache miss)
+841 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.6.tgz 7844ms (cache miss)
+842 http fetch GET 200 https://registry.npmjs.org/napi-postinstall/-/napi-postinstall-0.3.4.tgz 6608ms (cache miss)
+843 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.12.tgz 8436ms (cache miss)
+844 http fetch GET 200 https://registry.npmjs.org/json-schema-to-ts/-/json-schema-to-ts-3.1.1.tgz 9016ms (cache miss)
+845 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 7255ms (cache miss)
+846 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 7173ms (cache miss)
+847 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-1.22.12.tgz 8289ms (cache miss)
+848 http fetch GET 200 https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-3.5.0.tgz 10436ms (cache miss)
+849 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-1.22.12.tgz 8619ms (cache miss)
+850 http fetch GET 200 https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 6481ms (cache miss)
+851 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 6494ms (cache miss)
+852 http fetch GET 200 https://registry.npmjs.org/motion-dom/-/motion-dom-12.38.0.tgz 12028ms (cache miss)
+853 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz 11171ms (cache miss)
+854 http fetch GET 200 https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz 9152ms (cache miss)
+855 http fetch GET 200 https://registry.npmjs.org/jiti/-/jiti-1.21.7.tgz 10134ms (cache miss)
+856 http fetch GET 200 https://registry.npmjs.org/sucrase/-/sucrase-3.35.1.tgz 14725ms (cache miss)
+857 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-10.3.10.tgz 12179ms (cache miss)
+858 http fetch GET 200 https://registry.npmjs.org/framer-motion/-/framer-motion-12.38.0.tgz 15431ms (cache miss)
+859 http fetch GET 200 https://registry.npmjs.org/@anthropic-ai/sdk/-/sdk-0.93.0.tgz 15925ms (cache miss)
+860 http fetch GET 200 https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.19.tgz 16285ms (cache miss)
+861 http fetch GET 200 https://registry.npmjs.org/eslint/-/eslint-8.57.1.tgz 18892ms (cache miss)
+862 http fetch GET 200 https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.5.tgz 24328ms (cache miss)
+863 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 18809ms (cache miss)
+864 http fetch GET 200 https://registry.npmjs.org/lucide-react/-/lucide-react-1.14.0.tgz 46108ms (cache miss)
+865 http fetch GET 200 https://registry.npmjs.org/@napi-rs/canvas-win32-x64-msvc/-/canvas-win32-x64-msvc-0.1.80.tgz 48573ms (cache miss)
+866 http fetch GET 200 https://registry.npmjs.org/pdf-parse/-/pdf-parse-2.4.5.tgz 48642ms (cache miss)
+867 http fetch GET 200 https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-5.4.296.tgz 51275ms (cache miss)
+868 http fetch GET 200 https://registry.npmjs.org/next/-/next-14.2.35.tgz 65568ms (cache miss)
+869 info run sharp@0.34.5 install node_modules/sharp node install/check.js || npm run build
+870 info run sharp@0.34.5 install { code: 'EPERM', signal: undefined }
+871 warn cleanup Failed to remove some directories [
+871 warn cleanup   [
+871 warn cleanup     '\\\\?\\C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\next',
+871 warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\Dell\Documents\Codex\2026-05-04\build-a-next-js-14-project\presona\node_modules\next\dist\build'] {
+871 warn cleanup       errno: -4048,
+871 warn cleanup       code: 'EPERM',
+871 warn cleanup       syscall: 'rmdir',
+871 warn cleanup       path: 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\next\\dist\\build'
+871 warn cleanup     }
+871 warn cleanup   ],
+871 warn cleanup   [
+871 warn cleanup     'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\tailwindcss',
+871 warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\Dell\Documents\Codex\2026-05-04\build-a-next-js-14-project\presona\node_modules\tailwindcss\node_modules'] {
+871 warn cleanup       errno: -4048,
+871 warn cleanup       code: 'EPERM',
+871 warn cleanup       syscall: 'rmdir',
+871 warn cleanup       path: 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\tailwindcss\\node_modules'
+871 warn cleanup     }
+871 warn cleanup   ],
+871 warn cleanup   [
+871 warn cleanup     'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\next',
+871 warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\Dell\Documents\Codex\2026-05-04\build-a-next-js-14-project\presona\node_modules\next\dist\esm\client\components'] {
+871 warn cleanup       errno: -4048,
+871 warn cleanup       code: 'EPERM',
+871 warn cleanup       syscall: 'rmdir',
+871 warn cleanup       path: 'C:\\Users\\Dell\\Documents\\Codex\\2026-05-04\\build-a-next-js-14-project\\presona\\node_modules\\next\\dist\\esm\\client\\components'
+871 warn cleanup     }
+871 warn cleanup   ]
+871 warn cleanup ]
+872 verbose stack Error: spawn EPERM
+872 verbose stack     at ChildProcess.spawn (node:internal/child_process:441:11)
+872 verbose stack     at spawn (node:child_process:796:9)
+872 verbose stack     at promiseSpawn (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:39:16)
+872 verbose stack     at spawnWithShell (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:124:10)
+872 verbose stack     at promiseSpawn (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:12:12)
+872 verbose stack     at runScriptPkg (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script-pkg.js:79:13)
+872 verbose stack     at runScript (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script.js:9:12)
+872 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\rebuild.js:328:17
+872 verbose stack     at run (C:\Program Files\nodejs\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:67:22)
+872 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:84:9
+873 error code EPERM
+874 error syscall spawn
+875 error errno -4048
+876 error Error: spawn EPERM
+876 error     at ChildProcess.spawn (node:internal/child_process:441:11)
+876 error     at spawn (node:child_process:796:9)
+876 error     at promiseSpawn (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:39:16)
+876 error     at spawnWithShell (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:124:10)
+876 error     at promiseSpawn (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:12:12)
+876 error     at runScriptPkg (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script-pkg.js:79:13)
+876 error     at runScript (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script.js:9:12)
+876 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\rebuild.js:328:17
+876 error     at run (C:\Program Files\nodejs\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:67:22)
+876 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:84:9 {
+876 error   errno: -4048,
+876 error   code: 'EPERM',
+876 error   syscall: 'spawn'
+876 error }
+877 error
+877 error The operation was rejected by your operating system.
+877 error It's possible that the file was already in use (by a text editor or antivirus), or that you lack permissions to access it.
+877 error
+877 error If you believe this might be a permissions issue, please double-check the permissions of the file and its containing directories, or try running the command again as root/Administrator.
+878 silly unfinished npm timer reify 1777918920949
+879 silly unfinished npm timer reify:build 1777919017092
+880 silly unfinished npm timer build 1777919017093
+881 silly unfinished npm timer build:deps 1777919017093
+882 silly unfinished npm timer build:run:install 1777919017171
+883 silly unfinished npm timer build:run:install:node_modules/sharp 1777919017171
+884 verbose cwd C:\Users\Dell\Documents\Codex\2026-05-04\build-a-next-js-14-project\presona
+885 verbose os Windows_NT 10.0.26200
+886 verbose node v24.15.0
+887 verbose npm  v11.12.1
+888 notice
+888 notice New minor version of npm available! 11.12.1 -> 11.13.0
+888 notice Changelog: https://github.com/npm/cli/releases/tag/v11.13.0
+888 notice To update run: npm install -g npm@11.13.0
+888 notice  { force: true, Symbol(proc-log.meta): true }
+889 verbose exit -4048
+890 verbose code -4048
+891 error A complete log of this run can be found in: C:\Users\Dell\Documents\Codex\2026-05-04\build-a-next-js-14-project\presona\.npm-cache\_logs\2026-05-04T18_21_59_428Z-debug-0.log

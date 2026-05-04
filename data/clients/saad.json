@@ -1,0 +1,140 @@
+{
+  "name": "Saad Ahmed",
+  "title": "Growth & Performance Marketing Leader",
+  "tagline": "Full-funnel digital growth that maximizes revenue, reduces CAC, and increases client LTV.",
+  "about": "Saad Ahmed is a growth and performance marketing leader based in Karachi, Pakistan. He has scaled agency revenue, built high-performing digital teams, led multi-market campaigns, and helped brands across telecom, technology, food, finance, automotive, healthcare, and FMCG grow with sharper strategy, stronger retention, and measurable commercial impact.",
+  "location": "Karachi, Sindh, Pakistan",
+  "email": "saadahmedshaikh.93@gmail.com",
+  "phone": "+92 332 2186872",
+  "profileImage": "/clients/saad-ahmed/profile.png",
+  "stats": [
+    { "label": "Agency revenue growth", "value": "300%" },
+    { "label": "Upsell and cross-sell value", "value": "$2.5M+" },
+    { "label": "Campaign budgets overseen", "value": "$10M+" },
+    { "label": "Pitch win rate achieved", "value": "75%" }
+  ],
+  "skills": [
+    "Growth Marketing",
+    "Performance Marketing",
+    "Full-Funnel Strategy",
+    "Client Relationship Management",
+    "Digital Transformation",
+    "Revenue Growth",
+    "Media Strategy",
+    "Social Media Transformation",
+    "Programmatic Media",
+    "Influencer Marketing",
+    "Team Leadership",
+    "CRM and Automation"
+  ],
+  "experience": [
+    {
+      "company": "Convex Interactive",
+      "role": "Chief Digital Officer (CDO)",
+      "duration": "July 2025 - Present",
+      "description": "Delivered 300% total revenue growth over three years, developed a $2.5M+ upsell and cross-sell engine, expanded the agency from digital into tech and mobility, improved client retention to 2.5+ years, and launched Pakistan's first AI chatbot for K-Electric."
+    },
+    {
+      "company": "Convex Interactive",
+      "role": "Business Director",
+      "duration": "June 2023 - June 2025",
+      "description": "Increased monthly revenue by 60% in consecutive fiscal years, grew media into a top revenue unit, secured qualified leads at GITEX Dubai, and led campaigns recognized by Dragons of Pakistan & Asia, Pakistan Digital Awards, and Effie."
+    },
+    {
+      "company": "Solve.Care",
+      "role": "Digital Marketing Manager",
+      "duration": "February 2021 - July 2022",
+      "description": "Led digital marketing for a global blockchain healthcare platform, launched and revamped digital assets across regions, drove 8M+ impressions for a partner reveal, and helped increase digital currency value by 600% within 15 days."
+    },
+    {
+      "company": "HONOR",
+      "role": "Digital Manager",
+      "duration": "March 2018 - February 2021",
+      "description": "Led 360-degree product launch marketing across digital, social, e-commerce, PR, events, and media, raising brand image by 42%, brand trend by 37%, and top-of-mind awareness by 130% in 60 days."
+    },
+    {
+      "company": "String Media",
+      "role": "Team Lead - Digital Planning & Communications",
+      "duration": "January 2017 - February 2018",
+      "description": "Expanded account revenue by 300% in mobile and 200% in food and restaurants, delivered 500%+ fashion category sales growth, and led integrated campaigns across media, influencers, PR, SEM, and content."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Shaheed Zulfikar Ali Bhutto Institute of Science and Technology",
+      "degree": "MBA, Marketing",
+      "year": "2018 - 2020"
+    },
+    {
+      "institution": "Shaheed Zulfikar Ali Bhutto Institute of Science and Technology",
+      "degree": "BBA, Marketing",
+      "year": "2011 - 2015"
+    }
+  ],
+  "portfolio": [
+    {
+      "title": "K-Electric AI Chatbot",
+      "description": "Launched Pakistan's first AI chatbot for K-Electric, reducing operational costs and improving query resolution."
+    },
+    {
+      "title": "Global Healthcare Launch",
+      "description": "Built digital launch momentum for Solve.Care with 15k+ website visitors, 10k+ followers, 8M+ impressions, and 1k+ app downloads."
+    },
+    {
+      "title": "HONOR Pakistan Growth",
+      "description": "Led product launch and e-commerce campaigns that drove #1 smartphone sales during Pakistan Day on Daraz.pk."
+    },
+    {
+      "title": "Agency Revenue Transformation",
+      "description": "Scaled Convex Interactive's digital, tech, and mobility offering while improving client LTV and long-term retention."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Campaign Leadership",
+      "role": "Award-winning digital work",
+      "text": "Saad's work has been recognized across Dragons of Pakistan & Asia, Pakistan Digital Awards, Global Digital Excellence Awards, and Effie."
+    }
+  ],
+  "blog": [
+    {
+      "title": "The Future of Full-Funnel Growth",
+      "summary": "A practical view on blending creative strategy, media efficiency, automation, and retention to build durable revenue.",
+      "date": "2026"
+    }
+  ],
+  "services": [
+    {
+      "title": "Growth Strategy",
+      "description": "Full-funnel planning across acquisition, conversion, retention, and client lifetime value."
+    },
+    {
+      "title": "Performance Marketing",
+      "description": "Campaign architecture, media optimization, CAC reduction, and ROI-focused reporting."
+    },
+    {
+      "title": "Digital Transformation",
+      "description": "Digital-first operating models, automation, CRM, chatbot, website, and platform growth."
+    },
+    {
+      "title": "Agency and Team Leadership",
+      "description": "Commercial leadership, account growth, team mentorship, and cross-functional delivery systems."
+    }
+  ],
+  "socialLinks": {
+    "linkedin": "https://www.linkedin.com/in/saadshaikh93"
+  },
+  "templateId": "darkPremium",
+  "colorPalette": {
+    "primary": "#8b5cf6",
+    "secondary": "#111827",
+    "accent": "#f5c542",
+    "background": "#050505",
+    "text": "#f8fafc"
+  },
+  "fontPair": {
+    "heading": "Geist",
+    "body": "Geist"
+  },
+  "profession": "marketer"
+}
