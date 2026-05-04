@@ -46,6 +46,24 @@ const trustedBrands = [
   "FAYSAL BANK",
 ];
 
+const featuredMedia = [
+  {
+    title: "Vibe Store",
+    description: "Retail-first brand film with a sharper digital commerce energy.",
+    src: "/clients/saad-ahmed/videos/vibe-store.mp4",
+  },
+  {
+    title: "itel AI DVC",
+    description: "AI-led product communication shaped for mobile-first audiences.",
+    src: "/clients/saad-ahmed/videos/itel-ai-dvc.mp4",
+  },
+  {
+    title: "itel S26 Ultra",
+    description: "Launch creative focused on premium device storytelling.",
+    src: "/clients/saad-ahmed/videos/itel-s26-ultra.mp4",
+  },
+];
+
 export function ProfileSite({ profile, isPreview = false }: ProfileSiteProps) {
   const whatsappHref = profile.phone
     ? `https://wa.me/${profile.phone.replace(/\D/g, "")}`
@@ -342,6 +360,60 @@ export function ProfileSite({ profile, isPreview = false }: ProfileSiteProps) {
                 {item.title}
               </h3>
               <p className="mt-5 leading-7 text-white/62">{item.description}</p>
+            </motion.article>
+          ))}
+        </motion.div>
+      </section>
+
+      <section
+        id="media"
+        className="relative mx-auto max-w-7xl px-5 py-20 sm:px-8 lg:px-10"
+      >
+        <motion.div
+          initial={{ opacity: 0, y: 28 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.22 }}
+          transition={{ duration: 0.7 }}
+          className="mb-8"
+        >
+          <p className="text-sm font-black text-orange-500">Featured Media</p>
+          <h2 className="mt-3 text-5xl font-black leading-none tracking-[-0.03em]">
+            Campaign Films
+          </h2>
+        </motion.div>
+
+        <motion.div
+          variants={stagger}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.16 }}
+          className="grid gap-5 lg:grid-cols-3"
+        >
+          {featuredMedia.map((item) => (
+            <motion.article
+              key={item.src}
+              variants={fadeUp}
+              whileHover={{ y: -8, scale: 1.01 }}
+              transition={{ duration: 0.6 }}
+              className="group overflow-hidden rounded-[1.6rem] border border-white/10 bg-white/[0.07] p-3 shadow-2xl shadow-black/20 backdrop-blur-2xl transition hover:border-orange-200/35 hover:bg-white/[0.10]"
+            >
+              <div className="overflow-hidden rounded-[1.2rem] bg-black/60">
+                <video
+                  className="aspect-video w-full object-cover"
+                  controls
+                  playsInline
+                  preload="metadata"
+                  aria-label={`${item.title} video`}
+                >
+                  <source src={item.src} type="video/mp4" />
+                </video>
+              </div>
+              <div className="px-3 pb-3 pt-5">
+                <h3 className="text-2xl font-black tracking-[-0.02em] text-white transition group-hover:text-orange-200">
+                  {item.title}
+                </h3>
+                <p className="mt-3 leading-7 text-white/60">{item.description}</p>
+              </div>
             </motion.article>
           ))}
         </motion.div>

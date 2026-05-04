@@ -85,6 +85,13 @@ function baseStyles() {
     .work-card small { color: rgba(255,255,255,.35); font-weight: 950; }
     .work-card h3 { margin: 52px 0 0; font-size: 30px; line-height: .98; letter-spacing: -.02em; }
     .work-card p { color: rgba(255,255,255,.62); line-height: 1.6; }
+    .media-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 32px; }
+    .media-card { overflow: hidden; border: 1px solid rgba(255,255,255,.11); background: rgba(255,255,255,.07); border-radius: 28px; padding: 12px; box-shadow: 0 24px 70px rgba(0,0,0,.2); backdrop-filter: blur(28px); transition: transform .45s ease, border-color .45s ease, background .45s ease; }
+    .media-card:hover { transform: translateY(-8px); border-color: rgba(253,186,116,.38); background: rgba(255,255,255,.1); }
+    .media-card video { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 20px; background: rgba(0,0,0,.6); }
+    .media-card div { padding: 18px 12px 12px; }
+    .media-card h3 { margin: 0; font-size: 25px; letter-spacing: -.02em; }
+    .media-card p { color: rgba(255,255,255,.6); line-height: 1.65; }
     .timeline { display: grid; gap: 16px; margin-top: 32px; }
     .timeline-card { display: grid; grid-template-columns: .34fr .66fr; gap: 28px; border: 1px solid rgba(255,255,255,.11); background: rgba(255,255,255,.06); border-radius: 24px; padding: 24px; backdrop-filter: blur(28px); transition: border-color .35s ease; }
     .timeline-card:hover { border-color: rgba(253,186,116,.4); }
@@ -102,7 +109,7 @@ function baseStyles() {
     .whatsapp:hover { transform: translateY(-3px) scale(1.04); }
     .soft-section { position: relative; }
     .soft-section:before { content: ""; position: absolute; inset: 0; z-index: -1; background: radial-gradient(circle at 14% 0%, rgba(255,86,38,.18), transparent 34%), radial-gradient(circle at 80% 30%, rgba(139,92,246,.14), transparent 32%); }
-    @media (max-width: 980px) { .hero-grid, .split, .timeline-card, .stats-glass, .work-grid, .footer-grid { grid-template-columns: 1fr; } .nav { display: none; } .hero-grid { min-height: auto; gap: 30px; padding: 18px 0 34px; } .topbar { height: 64px; } h1 { font-size: clamp(58px, 18vw, 86px); letter-spacing: -.025em; } .intro { order: 2; } .portrait-shell { order: 1; max-width: min(330px, 88vw); } .portrait { aspect-ratio: 4 / 4.7; object-position: 50% 8%; } .brand-track { gap: 38px; } .section { padding: 70px 0; } .whatsapp { right: 14px; bottom: 14px; padding: 12px 15px; } }
+    @media (max-width: 980px) { .hero-grid, .split, .timeline-card, .stats-glass, .work-grid, .media-grid, .footer-grid { grid-template-columns: 1fr; } .nav { display: none; } .hero-grid { min-height: auto; gap: 30px; padding: 18px 0 34px; } .topbar { height: 64px; } h1 { font-size: clamp(58px, 18vw, 86px); letter-spacing: -.025em; } .intro { order: 2; } .portrait-shell { order: 1; max-width: min(330px, 88vw); } .portrait { aspect-ratio: 4 / 4.7; object-position: 50% 8%; } .brand-track { gap: 38px; } .section { padding: 70px 0; } .whatsapp { right: 14px; bottom: 14px; padding: 12px 15px; } }
   `;
 }
 
@@ -136,6 +143,23 @@ function renderProfile(profile, isPreview = false) {
     "HBL",
     "FAYSAL BANK",
   ];
+  const featuredMedia = [
+    {
+      title: "Vibe Store",
+      description: "Retail-first brand film with a sharper digital commerce energy.",
+      src: "/clients/saad-ahmed/videos/vibe-store.mp4",
+    },
+    {
+      title: "itel AI DVC",
+      description: "AI-led product communication shaped for mobile-first audiences.",
+      src: "/clients/saad-ahmed/videos/itel-ai-dvc.mp4",
+    },
+    {
+      title: "itel S26 Ultra",
+      description: "Launch creative focused on premium device storytelling.",
+      src: "/clients/saad-ahmed/videos/itel-s26-ultra.mp4",
+    },
+  ];
   const brandSlider = renderList(
     [...trustedBrands, ...trustedBrands],
     (brand) => `<span>${escapeHtml(brand)}</span>`,
@@ -159,6 +183,10 @@ function renderProfile(profile, isPreview = false) {
   const portfolio = renderList(
     profile.portfolio,
     (item, index) => `<article class="work-card reveal"><small>0${index + 1}</small><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p></article>`,
+  );
+  const media = renderList(
+    featuredMedia,
+    (item) => `<article class="media-card reveal"><video controls playsinline preload="metadata" aria-label="${escapeHtml(item.title)} video"><source src="${escapeHtml(item.src)}" type="video/mp4" /></video><div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p></div></article>`,
   );
   const services = renderList(
     profile.services,
@@ -212,6 +240,7 @@ function renderProfile(profile, isPreview = false) {
         </section>
         <section class="section soft-section"><div class="wrap split"><div class="reveal"><div class="kicker">Behind the Growth</div><h2>Shaping Experiences That Make Brands Grow</h2></div><div class="glass reveal"><p class="lead">I'm a product-minded growth leader focused on building clean, measurable, revenue-first digital ecosystems.</p><p class="body">${escapeHtml(profile.about)}</p></div></div></section>
         <section id="work" class="section soft-section"><div class="wrap"><div class="reveal"><div class="kicker">Selected Work</div><h2>Growth Plays</h2></div><div class="work-grid">${portfolio}</div></div></section>
+        <section id="media" class="section soft-section"><div class="wrap"><div class="reveal"><div class="kicker">Featured Media</div><h2>Campaign Films</h2></div><div class="media-grid">${media}</div></div></section>
         <section id="experience" class="section soft-section"><div class="wrap"><div class="kicker reveal">Leadership Timeline</div><div class="timeline">${experience}</div></div></section>
         <section class="section band"><div class="wrap split"><div class="glass reveal"><div class="kicker">Services</div><div class="timeline">${services}</div></div><div class="glass reveal"><div class="kicker">Core Skills</div><div class="skills">${skills}</div></div></div></section>
         <footer id="contact"><div class="wrap footer-grid glass reveal"><div><small>Built by</small><h3>Presona</h3></div><div>${escapeHtml(profile.location)}</div><div>${escapeHtml(profile.phone ?? "")}</div><a href="mailto:${escapeHtml(profile.email)}">${escapeHtml(profile.email)}</a></div></footer>
